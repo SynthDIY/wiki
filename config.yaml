@@ -1,38 +1,8 @@
 baseURL: https://example.com
 languageCode: en-us
 defaultContentLanguage: en
-title: Synth Wiki
-theme: cupper-hugo-theme
-
-taxonomies:
-  tag: tags
-
-permalinks:
-  post: /:filename/
-
-imaging:
-  quality: 99
-
-params:
-  description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
-  homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
-  # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: Jan 2, 2006
-  codePenUser: someUser
-  katex: true
-  hideHeaderLinks: false
-  search: true
-  showThemeSwitcher: true
-  defaultDarkTheme: false
-  moveFooterToHeader: false
-  logoAlt: "An alternative text description of the logo"
-  customCss:
-    - css/custom_01.css
-    - css/custom_02.css
-  customJs:
-    - js/custom_01.js
-    - js/custom_02.js
+title: SynthDIY Wiki
+theme: synth-wiki-theme
 
 menu:
   nav:
@@ -54,34 +24,3 @@ menu:
     - name: Tags
       url: /tags/
       weight: 6
-
-markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    extensions:
-      definitionList: true
-      footnote: true
-      linkify: true
-      strikethrough: true
-      table: true
-      taskList: true
-      typographer: true
-    parser:
-      attribute: true
-      autoHeadingID: true
-    renderer:
-      hardWraps: false
-      unsafe: true
-      xHTML: false
-  highlight:
-    codeFences: false
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    style: monokai
-    tabWidth: 4
-  tableOfContents:
-    endLevel: 6
-    startLevel: 2

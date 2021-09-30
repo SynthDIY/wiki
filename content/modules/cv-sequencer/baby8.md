@@ -2,7 +2,7 @@
 title: "Baby-8 CV Sequencer"
 tags: ["sequencer"]
 --- 
-The Baby-8 is a really simple and effective step sequencer built out of a CD4017(up to 10 steps) or CD4022(up to 8 steps).
+The Baby-8 is a really simple and effective step sequencer built out of a CD4017(up to 10 steps) or CD4022(up to 8 steps) counter chip.
 
 ## Schematics
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.com/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://example.com/modules/cv-sequencer/baby8/</loc>
+  </url><url>
+    <loc>https://example.com/categories/</loc>
+  </url><url>
+    <loc>https://example.com/modules/</loc>
+  </url><url>
+    <loc>https://example.com/modules/vcf/ms20/</loc>
+  </url><url>
+    <loc>https://example.com/tags/sequencer/</loc>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+  </url><url>
+    <loc>https://example.com/tags/vcf/</loc>
+  </url>
+</urlset>

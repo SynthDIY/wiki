@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modules on SynthDIY Wiki</title>
+    <link>https://example.com/modules/</link>
+    <description>Recent content in Modules on SynthDIY Wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://example.com/modules/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Baby-8 CV Sequencer</title>
+      <link>https://example.com/modules/cv-sequencer/baby8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/modules/cv-sequencer/baby8/</guid>
+      <description>The Baby-8 is a really simple and effective step sequencer built out of a CD4017(up to 10 steps) or CD4022(up to 8 steps) counter chip.
+Schematics Eddy Bergman&amp;rsquo;s Simple 8 Step Sequencer Kristian Blåsol&amp;rsquo;s Baby 8  Basic Baby 8 DropBox Baby8 Part2 Gates and resets DropBox Baby8 part3 gates reset and controls DropBox Baby8 Part4 Cascading DropBox  Videos  Kristian Blåsol - &amp;ldquo;Basic Baby8 CV only Sequencer - DIY Modular in a Week 10.</description>
+    </item>
+    
+    <item>
+      <title>MS-20 Filter</title>
+      <link>https://example.com/modules/vcf/ms20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/modules/vcf/ms20/</guid>
+      <description>MS-20 filter The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on his site. There is also a version designed by Kassutronics that has a knob for blending between low/high pass, which is nice.
+Schematics René Schmitz&amp;rsquo;s schematic (RS-20) Luther&amp;rsquo;s redrawn RS-20 schematic GitHub
+Juanito Moore&amp;rsquo;s schematic (Based on the RS-20) Google Drive</description>
+    </item>
+    
+  </channel>
+</rss>

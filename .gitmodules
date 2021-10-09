@@ -1,3 +1,3 @@
 [submodule "themes/synth-wiki-theme"]
 	path = themes/synth-wiki-theme
-	url = git@gitlab.com:Sandelinos/synth-wiki-theme.git
+	url = git@github.com:SynthDIY/wiki-hugo-theme.git

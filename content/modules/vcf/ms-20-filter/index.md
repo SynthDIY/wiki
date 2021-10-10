@@ -7,7 +7,6 @@ tags: ["vcf"]
 
 The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on [his site](https://schmitzbits.de/ms20.html). There is also a version designed by Kassutronics that has a knob for blending between low/high pass, which is nice.
 
-
 ## Schematics
 
 ### René Schmitz's schematic (RS-20)
@@ -26,7 +25,7 @@ The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter
 ![Look Mum No Computer MS-20 stripboard layout](https://images.squarespace-cdn.com/content/v1/5912db7ee6f2e1435dbab4fd/1541944844041-U1EN93VNSG92FYH6SCMX/MS202FIX.jpg)
 
 ### Sandelinos' Layout (KS-20)
-\[wip\]
+![Sandelinos' KS-20 Veroboard Layout](sandelinos-ks20.jpg)
 
 
 ## Perfboard Layouts

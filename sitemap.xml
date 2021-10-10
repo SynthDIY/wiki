@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://wiki.synthdiy.com/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://example.com/modules/cv-sequencer/baby8/</loc>
+    <loc>https://wiki.synthdiy.com/modules/cv-sequencer/baby8/</loc>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://wiki.synthdiy.com/categories/</loc>
   </url><url>
-    <loc>https://example.com/modules/</loc>
+    <loc>https://wiki.synthdiy.com/modules/</loc>
   </url><url>
-    <loc>https://example.com/modules/vcf/ms20/</loc>
+    <loc>https://wiki.synthdiy.com/modules/vcf/ms20/</loc>
   </url><url>
-    <loc>https://example.com/tags/sequencer/</loc>
+    <loc>https://wiki.synthdiy.com/tags/sequencer/</loc>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://wiki.synthdiy.com/tags/</loc>
   </url><url>
-    <loc>https://example.com/tags/vcf/</loc>
+    <loc>https://wiki.synthdiy.com/tags/vcf/</loc>
   </url>
 </urlset>

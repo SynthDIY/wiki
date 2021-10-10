@@ -1,5 +1,8 @@
-# _index.md
+# Welcome to the Synth DIY wiki!
 
-## okay so here I can add content
+## Here you will find schematics, layouts, tips, tricks and other synth DIY related things
 
-cool
+Have fun!
+
+## The wiki is currently under construction
+Contact us at [the Sourcery Studios Discord](https://discord.gg/uwpeqyAx) if you want to get involved or just send a pull request on [the git repository](https://github.com/SynthDIY/wiki). All contributions are welcome.

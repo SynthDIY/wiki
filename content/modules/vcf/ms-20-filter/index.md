@@ -1,6 +1,6 @@
 ---
 title: "MS-20 Filter"
-tags: ["vcf"]
+tags: ["vcf", "veroboard", "protoboard"]
 --- 
 
 The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on [his site](https://schmitzbits.de/ms20.html).

@@ -23,8 +23,8 @@ header {
 }
 
 #logo {
-	width: 50px;
-	height: 50px;
+	width: 1.5cm;
+	height: 1.5cm;
 }
 
 #content {
@@ -43,8 +43,16 @@ nav {
 	display: flex;
 }
 
+.tagslist {
+	display: flex;
+}
+
+.tagslist a {
+	margin: 3mm;
+}
+
 .menubutton {
-	height: 50px;
+	height: 1cm;
 	color: #FFFFFF;
 	text-decoration: none;
 }
@@ -58,6 +66,6 @@ nav {
 }
 
 .menubuttontext {
-	padding-right: 16px;
-	padding-left: 16px;
+	padding-right: 5mm;
+	padding-left: 5mm;
 }

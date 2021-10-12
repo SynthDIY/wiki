@@ -3,14 +3,14 @@ title: "MS-20 Filter"
 tags: ["vcf"]
 --- 
 
-# MS-20 filter
-
-The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on [his site](https://schmitzbits.de/ms20.html). There is also a version designed by Kassutronics that has a knob for blending between low/high pass, which is nice.
+The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on [his site](https://schmitzbits.de/ms20.html).
+There is also a version designed by Kassutronics that adds a pot for blending between low/highpass and a drive knob to attenuate the input signal.
 
 ## Schematics
 
 ### René Schmitz's schematic (RS-20)
-![René Schmitz MS-20 schematic](https://schmitzbits.de/rs20.png)
+![René Schmitz MS-20 schematic](rs20-schematic.png)
+This is a redrawn version with component names matching those on Kassutronics' KS-20 schematic. All credit goes to René Schmitz.
 
 ### Luther's redrawn RS-20 schematic
 [GitHub](https://github.com/PierreIsCoding/sdiy/blob/main/MS_20_VCF_Clone/MS20_BY_LP_Schematic.pdf)
@@ -21,8 +21,8 @@ The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter
 
 ## Veroboard Layouts
 
-### Look Mum No Computer's layout (RS-20)
-![Look Mum No Computer MS-20 stripboard layout](https://images.squarespace-cdn.com/content/v1/5912db7ee6f2e1435dbab4fd/1541944844041-U1EN93VNSG92FYH6SCMX/MS202FIX.jpg)
+### Look Mum No Computer's layout
+* [Look Mum No Computer MS-20 stripboard layout (lookmumnocomputer.com)](https://www.lookmumnocomputer.com/simple-filter)
 
 ### Sandelinos' Layout (KS-20)
 ![Sandelinos' KS-20 Veroboard Layout](sandelinos-ks20.jpg)

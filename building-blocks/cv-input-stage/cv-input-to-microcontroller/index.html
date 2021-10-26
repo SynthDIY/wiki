@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+	
+	<title>SynthDIY Wiki | CV Input to Microcontroller</title>
+</head>
+<body><header>
+	<a id=logo href="https://wiki.synthdiy.com">
+		<p style="margin: 0; color: white;">logo goes here</p>
+		
+	</a>
+	<nav>
+	
+		<a class=menubutton href="/">
+			<p class=menubuttontext>Home</p>
+		</a>
+	
+		<a class=menubutton href="/about/">
+			<p class=menubuttontext>About</p>
+		</a>
+	
+		<a class=menubutton href="/modules">
+			<p class=menubuttontext>Modules</p>
+		</a>
+	
+		<a class=menubutton href="/parts">
+			<p class=menubuttontext>Parts</p>
+		</a>
+	
+		<a class=menubutton href="/building-blocks">
+			<p class=menubuttontext>Building Blocks</p>
+		</a>
+	
+		<a class=menubutton href="/tags/">
+			<p class=menubuttontext>Tags</p>
+		</a>
+	
+</nav>
+
+</header>
+<div id="content">
+<div id="content">
+	<h1>CV Input to Microcontroller</h1>
+	<p>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±10V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V.
+To allow you to &lsquo;read&rsquo; the whole 10V CV range, you need to perform something called &lsquo;signal conditioning&rsquo;.
+This means that you want to &lsquo;condition&rsquo; the potential range of ±10V into 0-3.3V, cutting out any parts you don&rsquo;t need to read, and scaling the parts that you do to the readable range.</p>
+<p>One excellent circuit for doing just this, has been designed by Émilie Gillet of Mutable Instruments.</p>
+<p><img src="mutable-instruments-cv-input.png" alt="Mutable Instruments CV Input Stage"></p>
+<p>This circuit has two op-amps, which both perform very important functions.
+The first op-amp (a TL07X) is set up as an inverting amplifier, so it is able to have a gain of less than 1 (Non-inverting amplifiers can only have a gain of greater than or equal to 1).
+Its gain is -0.249, which will turn +10V into -2.49V, and -10V into +2.49V.
+We still have a problem that the voltage enters negative potential, and that the voltages have been flipped.</p>
+<p>Now op-amps always clip the incoming signal depending on the power supply they are given, but &lsquo;rail-to-rail&rsquo; op-amps clip very precisely, incredibly close to the power rails they are provided with.
+Thus, by providing the second op-amp with a power supply of Ground and +3.3V, the outgoing signal has always been clipped to an absolute minimum and maximum of 0-3.3V, so cannot harm the microcontroller&rsquo;s input.
+The op-amp used for this is an MCP600X, as it is rail-to-rail.</p>
+
+</div>
+
+        </div></body>
+</html>

@@ -17,12 +17,12 @@ Schematics Eddy Bergman&amp;rsquo;s Simple 8 Step Sequencer Kristian Blåsol&amp
     </item>
     
     <item>
-      <title>Building Blocks</title>
-      <link>https://wiki.synthdiy.com/building-blocks/</link>
+      <title>CV Input to Microcontroller</title>
+      <link>https://wiki.synthdiy.com/building-blocks/cv-input-stage/cv-input-to-microcontroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wiki.synthdiy.com/building-blocks/</guid>
-      <description>Here&amp;rsquo;s a list of open-source building blocks for Synth DIY projects. These are tried and tested circuits, so hopefully they will prevent you from having to re-invent the wheel when it comes to commonly used elements such as CV input stages.</description>
+      <guid>https://wiki.synthdiy.com/building-blocks/cv-input-stage/cv-input-to-microcontroller/</guid>
+      <description>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±10V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V. To allow you to &amp;lsquo;read&amp;rsquo; the whole 10V CV range, you need to perform something called &amp;lsquo;signal conditioning&amp;rsquo;. This means that you want to &amp;lsquo;condition&amp;rsquo; the potential range of ±10V into 0-3.</description>
     </item>
     
     <item>

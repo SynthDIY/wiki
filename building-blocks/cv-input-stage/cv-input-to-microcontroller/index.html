@@ -41,9 +41,8 @@
 
 </header>
 <div id="content">
-<div id="content">
-	<h1>CV Input to Microcontroller</h1>
-	<p>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±10V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V.
+<h1>CV Input to Microcontroller</h1>
+<p>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±10V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V.
 To allow you to &lsquo;read&rsquo; the whole 10V CV range, you need to perform something called &lsquo;signal conditioning&rsquo;.
 This means that you want to &lsquo;condition&rsquo; the potential range of ±10V into 0-3.3V, cutting out any parts you don&rsquo;t need to read, and scaling the parts that you do to the readable range.</p>
 <p>One excellent circuit for doing just this, has been designed by Émilie Gillet of Mutable Instruments.</p>
@@ -56,7 +55,9 @@ We still have a problem that the voltage enters negative potential, and that the
 Thus, by providing the second op-amp with a power supply of Ground and +3.3V, the outgoing signal has always been clipped to an absolute minimum and maximum of 0-3.3V, so cannot harm the microcontroller&rsquo;s input.
 The op-amp used for this is an MCP600X, as it is rail-to-rail.</p>
 
-</div>
+<ul>
+
+</ul>
 
         </div></body>
 </html>

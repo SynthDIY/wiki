@@ -10,6 +10,7 @@ One excellent circuit for doing just this, has been designed by Émilie Gillet o
 
 ### Mutable Instruments' CV Input Stage (used in Braids)
 ![Mutable Instruments CV Input Stage](mutable-instruments-cv-input.png)
+
 All credit goes to Émilie Gillet of Mutable Instruments.
 
 This circuit has two op-amps, which both perform very important functions.

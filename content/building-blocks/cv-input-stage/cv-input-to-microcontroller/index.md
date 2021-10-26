@@ -8,7 +8,9 @@ This means that you want to 'condition' the potential range of ±10V into 0-3.3V
 
 One excellent circuit for doing just this, has been designed by Émilie Gillet of Mutable Instruments.
 
+###Mutable Instruments' CV Input Stage (used in Braids)
 ![Mutable Instruments CV Input Stage](mutable-instruments-cv-input.png)
+All credit goes to Émilie Gillet of Mutable Instruments.
 
 This circuit has two op-amps, which both perform very important functions.
 The first op-amp (a TL07X) is set up as an inverting amplifier, so it is able to have a gain of less than 1 (Non-inverting amplifiers can only have a gain of greater than or equal to 1).

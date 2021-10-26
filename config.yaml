@@ -18,8 +18,8 @@ menu:
     - name: Parts
       url: /parts
       weight: 4
-    - name: Knowledge
-      url: /knowledge
+    - name: Building Blocks
+      url: /building-blocks
       weight: 5
     - name: Tags
       url: /tags/

@@ -21,6 +21,9 @@ menu:
     - name: Building Blocks
       url: /building-blocks
       weight: 5
-    - name: Tags
-      url: /tags/
+    - name: Contribute
+      url: /contribute
       weight: 6
+    - name: Tags
+      url: /tags
+      weight: 7

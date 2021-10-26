@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contribute on SynthDIY Wiki</title>
+    <link>https://wiki.synthdiy.com/contribute/</link>
+    <description>Recent content in Contribute on SynthDIY Wiki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://wiki.synthdiy.com/contribute/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Repository structure and article formatting</title>
+      <link>https://wiki.synthdiy.com/contribute/repository-structure-and-article-formatting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wiki.synthdiy.com/contribute/repository-structure-and-article-formatting/</guid>
+      <description>All the content in the wiki lives in the /content folder of the repository and consists of pages written in markdown with a little bit of extra metadata.
+Article formatting The source of an article will look somewhat like this
+index.md:
+--- title: &amp;quot;This is the title&amp;quot; tags: [&amp;quot;tag&amp;quot;, &amp;quot;tag2&amp;quot;] --- # this is a heading ## this is a smaller heading ### this is an even smaller heading Here is a paragraph which also has some *italics*, **bold** text and `monospace` * this is * a list 1.</description>
+    </item>
+    
+  </channel>
+</rss>

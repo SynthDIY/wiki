@@ -53,7 +53,7 @@ nav {
 
 .menubutton {
 	height: 1cm;
-	color: #FFFFFF;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -62,10 +62,24 @@ nav {
 }
 
 .menubutton:hover {
-	color:#FFFFCC;
+	color:#ffffcc;
 }
 
 .menubuttontext {
 	padding-right: 5mm;
 	padding-left: 5mm;
+}
+
+pre {
+	background-color: #2d0606;
+	padding: 10px;
+	border-radius: 0.4em;
+}
+
+code {
+	background-color: #2d0606;
+	color: #ffffcc;
+	font-size: 1.4em;
+	padding: 0.1em;
+	border-radius: 0.2em;
 }

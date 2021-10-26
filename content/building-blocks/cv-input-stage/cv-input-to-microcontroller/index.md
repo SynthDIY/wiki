@@ -1,6 +1,6 @@
 ---
 title: "CV Input to Microcontroller"
-tags: ["microcontroller"]
+tags: ["microcontroller", "op-amp", "analogue"]
 --- 
 Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V.
 To allow you to 'read' the whole 12V CV range, you need to perform something called 'signal conditioning'.

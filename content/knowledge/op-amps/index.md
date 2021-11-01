@@ -1,7 +1,7 @@
 ---
 title: "Op-Amp Basics"
 tags: ["op-amp"]
-draft: false
+draft: true
 --- 
 
 # Op-Amp Basics

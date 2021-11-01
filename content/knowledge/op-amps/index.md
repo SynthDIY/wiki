@@ -20,7 +20,7 @@ This article will cover the most common type of op-amp, the voltage-feedback amp
 
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/92231431/136880337-e03a670f-2421-4f69-b54f-365a79b387a9.png" width="700"/>
+  <img src="https://user-images.githubusercontent.com/92231431/136880337-e03a670f-2421-4f69-b54f-365a79b387a9.png" width="600"/>
   
   **Figure 2**
 </div>

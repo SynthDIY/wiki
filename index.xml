@@ -17,6 +17,16 @@ Schematics Eddy Bergman&amp;rsquo;s Simple 8 Step Sequencer Kristian Blåsol&amp
     </item>
     
     <item>
+      <title>Bake your own vactrols !</title>
+      <link>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</guid>
+      <description>An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.
+Both the LED and the LDR have to be enclosed so no external light should reach the LDR. This article only describe an experienced method to make those little candies, but if you want more technical informations you can read this excellent blog article.</description>
+    </item>
+    
+    <item>
       <title>CV Input to Microcontroller</title>
       <link>https://wiki.synthdiy.com/building-blocks/cv-input-stage/cv-input-to-microcontroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -126,11 +126,11 @@ Another simple and very useful op-amp configuration is the buffer, also known as
 Due to the negative feedback, the op-amp will push the voltage of the inverting input to be equal to the non-inverting input. Since the output is directly connected to the inverting input, the output voltage will always equal the voltage at the non-inverting input:
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=\Large V_{in-}=V_{in%2b}\:\:\:\:\text{(negative feedback)}">
+<img src="https://render.githubusercontent.com/render/math?math=\Large V_{in-}=V_{in%2b}\:\:\:\:\text{(Negative feedback)}">
 </p>
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=\Large V_{out}=V_{in-}\:\:\:\:\text{(direct connection)}">
+<img src="https://render.githubusercontent.com/render/math?math=\Large V_{out}=V_{in-}\:\:\:\:\text{(Direct connection)}">
 </p>
 
 
@@ -141,6 +141,36 @@ Due to the negative feedback, the op-amp will push the voltage of the inverting 
 Op-amps make excellent buffers due to their characteristic high input impedances and low output impedance. This acts to isolate upstream circuitry from any changes in  downstream impedances. Op-amp buffers are ubiquitous in synthesizer design, and are often used at the inputs and outputs of a module to isolate them from other modules.
 
 ### Non-Inverting Amplifier
+
+As seen in the buffer circuit, adding negative feedback is a way to control the gain of the op-amp. In the case of the buffer, the output is fed back directly to the inverting input to achieve a gain of 1. However, by using resistor dividers the gain can be set to any other value to amplify or attenuate a signal.
+
+The most intuitive op-amp amplifier is the non-inverting amplifier, which is similar in layout to the buffer. However, as shown in figure 8 there is a resistor divider comprised of **R<sub>1</sub>** and **R<sub>2</sub>** between the op-amp's output and ground, which divides the output voltage before being fed back to the inverting input. 
+
+<div align="center">
+  <img src="" alt="Op-Amp Non-Inverting Amplifier" width="400"/>
+
+  **Figure 8**
+</div>
+
+Due to the reduction of the voltage being fed back to the inverting input, the op-amp will raise its gain to try to make the inputs equal. As a result, the output signal will be amplified proportionally to the resistor divider ratio:
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=\Large V_{in%2B} = V_{in-} \:\:\:\: \text{(Negative feedback)}">
+</p>
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=\Large V_{in-} = V_{out} \cdot \frac{R_{2}}{R_{1}+R_{2}} \:\:\:\: \text{(Resistor divider)}">
+</p>
+
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=\Large V_{out} = V_{in%2B} \cdot \frac{R_{1}+R_{2}}{R_{2}}">
+</p>
+
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=\Large A = \frac{V_{out}}{V_{in%2B}} =  \frac{R_{1}+R_{2}}{R_{2}}">
+</p>
 
 ### Inverting Amplifier
 

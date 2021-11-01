@@ -4,8 +4,6 @@ tags: ["op-amp"]
 draft: true
 --- 
 
-# Op-Amp Basics
-
 The op-amp (operational amplifier) is a fundamental building block of analog electronics. With the addition of other simple components, they can be used to perform complex mathematical operations such as differentiation, integration, exponential conversion, etc. However, at its core, the op-amp is simply a differential amplifier with a very high gain.
 
 The symbol for an op-amp is a triangle, with non-inverting (**V<sub>in+</sub>**) and inverting (**V<sub>in-</sub>**) inputs indicated by ‘+’ and ‘-‘, respectively. This is shown in Figure 1. Often, the power supply connections are left off to reduce clutter in schematics, as shown in Figure 1b. In this case, it is generally implied that the op-amp’s power connections are connected to the circuit’s supply voltages.

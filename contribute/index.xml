@@ -7,6 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://wiki.synthdiy.com/contribute/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Contributing content from your browser</title>
+      <link>https://wiki.synthdiy.com/contribute/contributing-content-from-your-browser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wiki.synthdiy.com/contribute/contributing-content-from-your-browser/</guid>
+      <description>First you need to create a GitHub account, log in and navigate to our GitHub repository
+Adding a simple article Click on Add file -&amp;gt; Create new file
+Github will notify you that it has automatically forked the repository for you.
+Type in the file path of the file you want to create and type in the content of your article (/ works as a directory separator). Info on article formatting and our directory structure is available in here</description>
+    </item>
+    
+    <item>
       <title>Repository structure and article formatting</title>
       <link>https://wiki.synthdiy.com/contribute/repository-structure-and-article-formatting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

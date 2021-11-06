@@ -28,11 +28,11 @@ One of the defining features of op-amps is their very high open-loop gain. The t
 
 An op-amp’s gain, **A**, is defined as the ratio of the output voltage, **V<sub>out</sub>**, to the input voltage, **V<sub>in</sub>**. Since op-amps are differential amplifiers, the input voltage, **V<sub>in</sub>**, is the *difference* between the non-inverting and inverting inputs. Using these two relations, the output voltage can be expressed in terms of the gain and the input voltages:
 
-![test](https://render.githubusercontent.com/render/math?math=\Large%20A\equiv\frac{V_{out}}{V_{in}})
+![](https://render.githubusercontent.com/render/math?math=\Large%20A\equiv\frac{V_{out}}{V_{in}})
 
-![test](https://render.githubusercontent.com/render/math?math=\Large%20V_{in}=V_{in%2B}-V_{in-})
+![](https://render.githubusercontent.com/render/math?math=\Large%20V_{in}=V_{in%2B}-V_{in-})
 
-![test](https://render.githubusercontent.com/render/math?math=\Large%20\therefore%20V_{out}=A%20\cdot%20(V_{in%2B}%20-%20V_{in-}))
+![](https://render.githubusercontent.com/render/math?math=\Large%20\therefore%20V_{out}=A%20\cdot%20(V_{in%2B}%20-%20V_{in-}))
 
 For typical op-amps, the open-loop gain is on the order of 100,000, or 100dB. In other words, the voltage of a signal at the input will be be multiplied by 100,000 at the output. Of course, op-amps are limited by their supply voltages, so instead of generating extremely high voltages the op-amp will saturate at either the positive or negative supply voltage.
 
@@ -56,7 +56,7 @@ Figure 4 illustrates the internal impedances in a simplified model of an op-amp.
 
 To summarize the previous points discussed, the following are key rules to remember when analyzing and designing op-amp circuits:
 
->- **Very high input impedance (Z<sub>in</sub> &approx; &infin;; I<sub>in</sub> &approx; 0)**
+>- **Very high input impedance (![](https://render.githubusercontent.com/render/math?math=Z_{in}) &approx; &infin;; I<sub>in</sub> &approx; 0)**
 >- **Very low output impedance (Z<sub>out</sub> &approx; 0)**
 >- **Negative feedback will drive the two inputs to be equal (V<sub>in+</sub> = V<sub>in-</sub>)**
 >- **Positive feedback will drive the two inputs apart**

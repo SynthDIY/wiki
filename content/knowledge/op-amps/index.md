@@ -8,9 +8,11 @@ The op-amp (operational amplifier) is a fundamental building block of analog ele
 
 The symbol for an op-amp is a triangle, with non-inverting (**V<sub>in+</sub>**) and inverting (**V<sub>in-</sub>**) inputs indicated by ‘+’ and ‘-‘, respectively. This is shown in Figure 1. Often, the power supply connections are left off to reduce clutter in schematics, as shown in Figure 1b. In this case, it is generally implied that the op-amp’s power connections are connected to the circuit’s supply voltages.
 
-![Op-Amp Symbols](OpAmp_Symbols.svg)
-**Figure 1**
+<p align="center">
+  <img src="OpAmp_Symbols.svg" />
+</p>
 
+**Figure 1**
 
 This article will cover the most common type of op-amp, the voltage-feedback amplifier (VFA), which acts as a voltage-controlled voltage source (VCVS). This is generally what is referred to when using the term 'op-amp', though there are four possible classes of op-amps depending on the input and output parameters, shown in Figure 2. In synthesizer design, and analog circuit design in general, VFAs and OTAs are by far the most common.
 

@@ -9,7 +9,7 @@ The op-amp (operational amplifier) is a fundamental building block of analog ele
 The symbol for an op-amp is a triangle, with non-inverting (**V<sub>in+</sub>**) and inverting (**V<sub>in-</sub>**) inputs indicated by ‘+’ and ‘-‘, respectively. This is shown in Figure 1. Often, the power supply connections are left off to reduce clutter in schematics, as shown in Figure 1b. In this case, it is generally implied that the op-amp’s power connections are connected to the circuit’s supply voltages.
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/92231431/136880329-66f9cee8-ee58-4831-80c1-02204f780cc2.png" alt="Op-Amp Symbols" width="600"/>
+  <img src="./OpAmp_Symbols.svg" alt="Op-Amp Symbols" width="600"/>
   
   **Figure 1**
 </div>
@@ -18,7 +18,7 @@ This article will cover the most common type of op-amp, the voltage-feedback amp
 
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/92231431/136880337-e03a670f-2421-4f69-b54f-365a79b387a9.png" width="600"/>
+  <img src="./OpAmp_Types.svg" width="600"/>
   
   **Figure 2**
 </div>
@@ -31,7 +31,7 @@ One of the defining features of op-amps is their very high open-loop gain. The t
 
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/92231431/136880081-6e92d326-d539-42af-8b0f-379dad5772ec.png" alt="Op-Amp Symbols" width="600"/>
+  <img src="./OpAmp_OpenClosedLoop.svg" alt="Op-Amp Symbols" width="600"/>
   
   
   **Figure 3**
@@ -66,7 +66,7 @@ Another important characteristic of op-amps is their input and output impedances
 Figure 4 illustrates the internal impedances in a simplified model of an op-amp.
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/92231431/136881026-57cdd87f-36f1-47f7-b72b-2b0950b8d18c.png" alt="Op-Amp Impedances" width="400"/>
+  <img src="./OpAmp_Impedances.svg" alt="Op-Amp Impedances" width="400"/>
 
   **Figure 4**
 </div>
@@ -88,7 +88,7 @@ To summarize the previous points discussed, the following are key rules to remem
 Perhaps the simplest configuration of an op amp is as a comparator. The comparator has no feedback, and often one of the inputs is held at a constant reference voltage, called V<sub>ref</sub>. Due to the high input impedance of the op-amp, the impedance of the voltage reference itself is not critical. Commonly, voltage dividers are used as reference voltage sources. Alternatively, a zener diode or voltage regulator can be used.
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/92231431/139565905-7b1c0f94-90f3-4907-9c8d-86cde039bbd0.png" alt="Op-Amp Comparator" width="400"/>
+  <img src="./OpAmp_Comparator.svg" alt="Op-Amp Comparator" width="400"/>
 
   **Figure 5**
 </div>
@@ -104,7 +104,7 @@ Perhaps the simplest configuration of an op amp is as a comparator. The comparat
 This configuration takes advantage of the high open-loop gain of the op-amp to 'digitize' an analog signal. Since the op-amp amplifies the difference between the input signals, this can be viewed as 'comparing' the input voltages &ndash; if V<sub>in+</sub> > V<sub>in-</sub>, the output will quickly swing to the positive supply voltage, and vice versa. This behavior is shown in Figure 6 with a constant positive reference voltage at the inverting input.
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/92231431/139565908-5bf3bc03-65d8-4f6b-ae4a-7ef538d68f66.png" alt="Comparator Output" width="600"/>
+  <img src="./OpAmp_Comparator_Output.svg" alt="Comparator Output" width="600"/>
 
   **Figure 6**
 </div>
@@ -114,7 +114,7 @@ This configuration takes advantage of the high open-loop gain of the op-amp to '
 Another simple and very useful op-amp configuration is the buffer, also known as the voltage-follower. As the name implies, the output voltage 'follows' the input voltage, or in other words, the output voltage is always equal to the input voltage. This is achieved by directly connecting the ouput of the op-amp directly to the inverting input.
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/92231431/139567867-866628ee-8e17-49b5-a6de-277e940a8df5.png" alt="Comparator Output" width="400"/>
+  <img src="./OpAmp_Buffer.svg" alt="Op Amp Buffer" width="400"/>
   
   **Figure 7**
 </div>
@@ -175,7 +175,7 @@ Due to the reduction of the voltage being fed back to the inverting input, the o
 ### Inverting Amplifier
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/92231431/139596935-08bee76d-830f-4587-84fc-a27bae9c207a.png" alt="Op-Amp Comparator" width="400"/>
+  <img src="./OpAmp_Inverting_Amplifier.svg" alt="Op-Amp Inverting Amplifier" width="400"/>
 
   **Figure 8**
 </div>

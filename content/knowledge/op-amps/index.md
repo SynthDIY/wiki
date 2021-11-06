@@ -32,9 +32,7 @@ An op-amp’s gain, **A**, is defined as the ratio of the output voltage, **V<su
 
 ![test](https://render.githubusercontent.com/render/math?math=\Large%20V_{in}=V_{in%2B}-V_{in-})
 
-<p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=\Large \therefore V_{out}=A \cdot (V_{in%2B} - V_{in-})">
-</p>
+![test](https://render.githubusercontent.com/render/math?math=\Large%20\therefore%20V_{out}=A%20\cdot%20(V_{in%2B}%20-%20V_{in-}))
 
 For typical op-amps, the open-loop gain is on the order of 100,000, or 100dB. In other words, the voltage of a signal at the input will be be multiplied by 100,000 at the output. Of course, op-amps are limited by their supply voltages, so instead of generating extremely high voltages the op-amp will saturate at either the positive or negative supply voltage.
 

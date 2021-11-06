@@ -56,9 +56,9 @@ Figure 4 illustrates the internal impedances in a simplified model of an op-amp.
 
 To summarize the previous points discussed, the following are key rules to remember when analyzing and designing op-amp circuits:
 
->- **Very high input impedance ![](https://render.githubusercontent.com/render/math?math=\large%20%28Z_{in}%29%20\approx%20\infty,%20I_{in}%20\approx%200%29)**
->- **Very low output impedance (Z<sub>out</sub> &approx; 0)**
->- **Negative feedback will drive the two inputs to be equal (V<sub>in+</sub> = V<sub>in-</sub>)**
+>- **Very high input impedance** ![](https://render.githubusercontent.com/render/math?math=\large%20%28Z_{in}%20\approx%20\infty,%20I_{in}%20\approx%200%29)
+>- **Very low output impedance** ![](https://render.githubusercontent.com/render/math?math=\large%20%28Z_{out}%20\approx%200%29)
+>- **Negative feedback will drive the two inputs to be equal** ![](https://render.githubusercontent.com/render/math?math=\large%20%28V_{in+}%20=%20V_{in-}%29)
 >- **Positive feedback will drive the two inputs apart**
 
 ## Common Configurations

@@ -8,7 +8,7 @@ The op-amp (operational amplifier) is a fundamental building block of analog ele
 
 The symbol for an op-amp is a triangle, with non-inverting (**V<sub>in+</sub>**) and inverting (**V<sub>in-</sub>**) inputs indicated by ‘+’ and ‘-‘, respectively. This is shown in Figure 1. Often, the power supply connections are left off to reduce clutter in schematics, as shown in Figure 1b. In this case, it is generally implied that the op-amp’s power connections are connected to the circuit’s supply voltages.
 
-<img src="OpAmp_Symbols.svg" style="width: 600px;" />
+<img src="./OpAmp_Symbols.svg" style="width: 600px;" />
 ![Op-Amp Symbols](OpAmp_Symbols.svg)
 **Figure 1**
 

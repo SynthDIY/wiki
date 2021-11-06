@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="OpAmp_Comparator_Output.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg2509"
+   version="1.1"
+   viewBox="0 0 157.80605 135.47849"
+   height="135.47849mm"
+   width="157.80605mm">
+  <defs
+     id="defs2503" />
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="156"
+     inkscape:window-height="1040"
+     inkscape:window-width="1375"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="146.72927"
+     inkscape:cx="220.1509"
+     inkscape:zoom="0.98994949"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata2506">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-103.2815,-83.45124)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       inkscape:export-ydpi="868.53003"
+       inkscape:export-xdpi="868.53003"
+       id="g3169">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path2406"
+         d="m 127.79476,108.64288 v 51.08747"
+         style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.352777, 1.41111;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path2408"
+         d="m 156.44639,108.64288 v 51.08747"
+         style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.352777, 1.41111;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path2410"
+         d="m 171.07647,108.64288 v 51.08747"
+         style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.352777, 1.41111;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path2412"
+         d="m 183.47585,108.64288 v 51.08747"
+         style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.352777, 1.41111;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path2414"
+         d="m 245.52977,108.64288 v 51.08747"
+         style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.352777, 1.41111;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         id="path2366"
+         d="M 121.52856,108.64288 H 261.06584"
+         style="fill:none;stroke:#ff0000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.5875, 1.5875;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.5875, 1.5875;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 121.52856,171.24583 H 261.06584"
+         id="path2386" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path2356"
+         d="M 121.52856,91.603469 V 145.56241"
+         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path2358"
+         d="M 121.52856,118.58294 H 261.06584"
+         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 121.52856,154.20642 v 53.95894"
+         id="path2378"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 121.52856,181.18589 H 261.06584"
+         id="path2380" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path2398"
+         d="M 121.52856,159.73035 H 261.06584"
+         style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.705556, 1.41111;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.352777;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.705556, 1.41111;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 121.52856,202.64142 H 261.06584"
+         id="path2402"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cssssssc"
+         id="path2364"
+         d="m 121.52856,118.58294 c 0,0 8.46041,-17.50759 20.51335,-21.397721 12.05296,-3.89013 12.57787,13.603941 18.15796,16.018501 5.58006,2.41456 14.06176,-9.92653 19.86505,-8.04854 5.80326,1.878 4.91045,16.23122 15.1778,22.13348 10.26731,5.90226 21.13773,1.88772 25.2219,-0.13414 8.63297,-4.27372 20.08826,-17.03607 27.90034,-19.85306 7.81212,-2.81699 12.70088,-2.41456 12.70088,-2.41456"
+         style="fill:none;fill-opacity:1;stroke:#0076ff;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccc"
+         id="path2416"
+         d="m 121.52856,202.64142 h 6.2662 v -42.91107 h 28.65163 v 42.91107 h 14.63008 v -42.91107 h 12.39938 v 42.91107 h 62.05392 v -42.91107 h 15.53607"
+         style="fill:none;stroke:#0076ff;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         style="font-size:5.64444px;stroke-width:1"
+         xml:space="preserve"
+         x="111.3568"
+         y="109.63206"
+         id="text2422"><tspan
+           sodipodi:role="line"
+           id="tspan2420"
+           x="111.3568"
+           y="109.63206"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';baseline-shift:baseline;stroke-width:0.264583">V<tspan
+   id="tspan2424"
+   style="font-size:3.6689px;baseline-shift:sub;stroke-width:0.264583">ref</tspan></tspan></text>
+      <text
+         id="text2436"
+         y="172.07373"
+         x="111.3568"
+         xml:space="preserve"
+         style="font-size:5.64444px;stroke-width:1"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';baseline-shift:baseline;stroke-width:0.264583"
+           y="172.07373"
+           x="111.3568"
+           id="tspan2434"
+           sodipodi:role="line">V<tspan
+   style="font-size:3.6689px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan2432">ref</tspan></tspan></text>
+      <text
+         style="font-size:5.64444px;stroke-width:1"
+         xml:space="preserve"
+         x="103.22087"
+         y="161.62268"
+         id="text2442"><tspan
+           sodipodi:role="line"
+           id="tspan2440"
+           x="103.22087"
+           y="161.62268"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';baseline-shift:baseline;stroke-width:0.264583">V<tspan
+   id="tspan2450"
+   style="font-size:3.6689px;baseline-shift:sub;stroke-width:0.264583">supply+</tspan></tspan></text>
+      <text
+         id="text2448"
+         y="203.02997"
+         x="103.9706"
+         xml:space="preserve"
+         style="font-size:5.64444px;stroke-width:1"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';baseline-shift:baseline;stroke-width:0.264583"
+           y="203.02997"
+           x="103.9706"
+           id="tspan2446"
+           sodipodi:role="line">V<tspan
+   id="tspan2452"
+   style="font-size:3.6689px;baseline-shift:sub;stroke-width:0.264583">supply-</tspan></tspan></text>
+      <text
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:1"
+         xml:space="preserve"
+         x="175.84526"
+         y="87.290451"
+         id="text2458"><tspan
+           sodipodi:role="line"
+           id="tspan2456"
+           x="175.84526"
+           y="87.290451"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri;baseline-shift:baseline;stroke-width:0.264583">Input Voltage</tspan></text>
+      <text
+         id="text2462"
+         y="217.92375"
+         x="175.84526"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:1"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:Calibri;baseline-shift:baseline;stroke-width:0.264583"
+           y="217.92375"
+           x="175.84526"
+           id="tspan2460"
+           sodipodi:role="line">Output Voltage</tspan></text>
+    </g>
+  </g>
+</svg>

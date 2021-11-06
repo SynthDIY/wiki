@@ -28,11 +28,9 @@ One of the defining features of op-amps is their very high open-loop gain. The t
 
 An op-amp’s gain, **A**, is defined as the ratio of the output voltage, **V<sub>out</sub>**, to the input voltage, **V<sub>in</sub>**. Since op-amps are differential amplifiers, the input voltage, **V<sub>in</sub>**, is the *difference* between the non-inverting and inverting inputs. Using these two relations, the output voltage can be expressed in terms of the gain and the input voltages:
 
-<p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=\Large A\equiv\frac{V_{out}}{V_{in}}">
-</p>
+![test](https://render.githubusercontent.com/render/math?math=\Large%20A\equiv\frac{V_{out}}{V_{in}})
 
-![test](https://render.githubusercontent.com/render/math?math=\Large{V_{in}=V_{in%2B}-V_{in-}})
+![test](https://render.githubusercontent.com/render/math?math=\Large%20V_{in}=V_{in%2B}-V_{in-})
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=\Large \therefore V_{out}=A \cdot (V_{in%2B} - V_{in-})">

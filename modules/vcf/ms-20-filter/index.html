@@ -55,22 +55,38 @@
 There is also a version designed by Kassutronics that adds a pot for blending between low/highpass and a drive knob to attenuate the input signal.</p>
 <h2 id="schematics">Schematics</h2>
 <h3 id="rené-schmitzs-schematic-rs-20">René Schmitz&rsquo;s schematic (RS-20)</h3>
-<p><img src="rs20-schematic.png" alt="René Schmitz MS-20 schematic">
-This is a redrawn version with component names matching those on Kassutronics' KS-20 schematic. All credit goes to René Schmitz.</p>
+<p><img src="rs20-schematic.png" alt="René Schmitz MS-20 schematic"></p>
+<p>This is a redrawn version with component names matching those on Kassutronics' KS-20 schematic. All credit goes to René Schmitz.</p>
 <h3 id="luthers-redrawn-rs-20-schematic">Luther&rsquo;s redrawn RS-20 schematic</h3>
-<p><a href="https://github.com/PierreIsCoding/sdiy/blob/main/MS_20_VCF_Clone/MS20_BY_LP_Schematic.pdf">GitHub</a></p>
+<ul>
+<li><a href="https://github.com/PierreIsCoding/sdiy/blob/main/MS_20_VCF_Clone/MS20_BY_LP_Schematic.pdf">GitHub</a></li>
+</ul>
 <h3 id="juanito-moores-schematic-based-on-the-rs-20">Juanito Moore&rsquo;s schematic (Based on the RS-20)</h3>
-<p><a href="https://drive.google.com/file/d/1PnwspQndJK8oI6rkUyz9AkvxLnCkyd6k/view">Google Drive</a></p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1PnwspQndJK8oI6rkUyz9AkvxLnCkyd6k/view">Google Drive</a></li>
+</ul>
+<h3 id="kassutronics-ks-20-schematic">Kassutronics' KS-20 schematic</h3>
+<ul>
+<li><a href="https://github.com/kassu/kassutronics/blob/master/documentation/KS-20%20VCF/Kassutronics_KS-20_Build_Docs_1.1C.pdf">GitHub</a></li>
+</ul>
 <h2 id="veroboard-layouts">Veroboard Layouts</h2>
 <h3 id="look-mum-no-computers-layout">Look Mum No Computer&rsquo;s layout</h3>
 <ul>
 <li><a href="https://www.lookmumnocomputer.com/simple-filter">Look Mum No Computer MS-20 stripboard layout (lookmumnocomputer.com)</a></li>
 </ul>
 <h3 id="sandelinos-layout-ks-20">Sandelinos' Layout (KS-20)</h3>
-<p><img src="sandelinos-ks20.jpg" alt="Sandelinos' KS-20 Veroboard Layout"></p>
+<p><img src="sandelinos-ks20.png" alt="Sandelinos' KS-20 Veroboard Layout"></p>
+<p>Most component names match the ones in Kassu&rsquo;s schematics <a href="https://github.com/kassu/kassutronics/blob/master/documentation/KS-20%20VCF/Kassutronics_KS-20_Build_Docs_1.1C.pdf">here</a>.</p>
+<p>+12V, GND and -12V traces and jumpers have been highlighted with red, black(ish) and blue.</p>
+<p>Built and tested by Sandelinos with 2n3906 transistors and purple LEDs. Kassu&rsquo;s original design uses BC557C and green LEDs.
+The two TL072s in Kassu&rsquo;s design have been replaced with a single TL074 here and the NE5532 has been replaced with a TL072, use an IC socket so you can stick in an NE5532 if you want.</p>
+<p>Using LEDs with a higher forward voltage for D1, D2 will clip the resonance less and give a slightly different sound.</p>
+<p>To add more range to the resonance you can decrease the value of R13. René has a 1.8k R13 in his design. A 2k is a more common value and has a great gnarly sound at max resonance, while still giving around 50% range before self oscillating. You can try a 1k or even lower if you want an even more max resonance.</p>
 <h2 id="perfboard-layouts">Perfboard Layouts</h2>
 <h3 id="luthers-layout-rs-20">Luther&rsquo;s layout (RS-20)</h3>
-<p><a href="https://github.com/PierreIsCoding/sdiy/blob/main/MS_20_VCF_Clone/MS20_PCB_Perfboard.pdf">GitHub</a></p>
+<ul>
+<li><a href="https://github.com/PierreIsCoding/sdiy/blob/main/MS_20_VCF_Clone/MS20_PCB_Perfboard.pdf">GitHub</a></li>
+</ul>
 <h2 id="videos">Videos</h2>
 <ul>
 <li><a href="https://youtu.be/t-B8FbF8-_8">Kristian Blåsol - &ldquo;Late MS20 HP &amp; LP VCF by Réne Schmitz (2nd MS20 filter) - DIY Modular in a Week 7.4&rdquo;</a></li>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+	
+	<title>SynthDIY Wiki | ADSR(-ish) envelope generator</title>
+</head>
+<body><header>
+	<a id=logo href="https://wiki.synthdiy.com">
+		<p style="margin: 0; color: white;">logo goes here</p>
+		
+	</a>
+	<nav>
+	
+		<a class=menubutton href="/">
+			<p class=menubuttontext>Home</p>
+		</a>
+	
+		<a class=menubutton href="/about/">
+			<p class=menubuttontext>About</p>
+		</a>
+	
+		<a class=menubutton href="/modules">
+			<p class=menubuttontext>Modules</p>
+		</a>
+	
+		<a class=menubutton href="/parts">
+			<p class=menubuttontext>Parts</p>
+		</a>
+	
+		<a class=menubutton href="/building-blocks">
+			<p class=menubuttontext>Building Blocks</p>
+		</a>
+	
+		<a class=menubutton href="/knowledge">
+			<p class=menubuttontext>Knowledge</p>
+		</a>
+	
+		<a class=menubutton href="/contribute">
+			<p class=menubuttontext>Contribute</p>
+		</a>
+	
+		<a class=menubutton href="/tags">
+			<p class=menubuttontext>Tags</p>
+		</a>
+	
+</nav>
+
+</header>
+<div id="content">
+<div id="content">
+	<h1>ADSR(-ish) envelope generator</h1>
+	<p>This is a simple but effective envelope generator designed by Moritz Klein in <a href="https://www.youtube.com/watch?v=aGFb7JbTdNU">his video</a>.
+It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters.
+The opposite polarity diodes in series with the pots let you control the rate the capacitor charges and discharges at independently, so you can adjust &ldquo;attack&rdquo; and &ldquo;decay + release&rdquo; independently.</p>
+<p>Pros:</p>
+<ul>
+<li>Simple and easy to build</li>
+<li>Sounds good</li>
+<li>Decay and release are controlled by the same knob</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Decay and release are controlled by the same knob</li>
+<li>Turning up the attack &ldquo;eats&rdquo; the decay part of the envelope</li>
+</ul>
+<h2 id="schematics">Schematics</h2>
+<h3 id="moritz-kleins-original-circuit">Moritz Klein&rsquo;s original circuit</h3>
+<p>The schematic can be seen in Moritz Klein&rsquo;s youtube video: <a href="https://youtu.be/aGFb7JbTdNU">&ldquo;Designing a simple ADSR(-ish) envelope generator from scratch&rdquo;</a>.</p>
+<p>Moritz has also created <a href="https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEBmA7NMZUCYAskAOMBZANjVRAUipF2SoFMBaTAKAGMRXdcVtuBGsgE0Y8OBHHVkYAJzYEc4rILY5BKLEhg2AJW5he4VKUMKTZmgIFmrWhGwAm4Y8kh9shFB5ACnjABmAIYArgA2AC7OdLiarGYIYAIJfiABIRHRLkkCQrGa+f5BYVFsAO5UpoaJ1SJQFVVm+Qh1oo2tZvWk+PwNXD3Ctr2YoloSOuDQZPRgBLikWLKkGuM6bADmIIPgydsjxmKNO90EmvWQbMHbZ+DNcHcgmnusAmATNGDTPe5xc6QEZBJPZfGaqBZLMArZ4TY63GgA+IXOFIvIPZjIypCGgYtGfKxsABOTweUKe+TJn3gMSMfDifgQZnpxUyZS2zHycjMHM+eyOxJ5fUFXKg4AkVz69NpdE0cnAKRBHxQ0EBpFQyAWcmQBFQqAQSUozHEkC1qFwOGwYLNOoY73FlR4fHqjssDWuii6AjI5zy8sMbyVRtg7mwYA1STkCDwkD1ECDkBDYb1+AIK2wqATfDt1MqHseedSl1zjJqKABpaLZfiZO9fUrvB9BRJDUqDcl9MLRIZZmwtzz9Kp9tL9RH7Swnm8vz8tynEGzDxgi1uAGUAKrLgAqAEEAJIAOU2PidvmQZCPosr3Sdb2ql2J9SwZlGrpo5upW2fj-lz1vDXvN+5B9f3nS4DFxV1mB6F9RRGMYxGgRwAA8-GIFAz3cShTzlLM+DXTddz3AAdABnAAFAB5Dc2GQ6gcSIKgCCQZhUE0HCQC3DdtwAYQAaRIiiqOQ3AlF2JBSBjXZWNcEAABEAFEuK3ABNAB6PQ5IAGTkrdlzk-jKLYcjyXxEAFGeew72HBUzBFQd31LEVUmfI4XEFZ0axsdISiyRoXREIZ+COSpa3qNtkWuEdfGlKdngVAMJmVVV1U1bVdX1LBRRAxogM9adNErF0vz8rw-yoF4yU6CtwC7XJm0q-JXwkaAuTYAB7FA5SgxrVhKmApGq9re32GCTTlcR5BIZIkGNOA5FMRlFHANIhuQNhtRlTKxQSjjuJ4tbWLGpaQJoeTFNU9StJ0uS2CAA">a falstad simulation of the circuit</a>.</p>
+<h3 id="sandelinos-envelope-generator">Sandelinos' envelope generator</h3>
+<p>This is a modified version of Moritz&rsquo;s original circuit.</p>
+<p>The main changes made:</p>
+<ul>
+<li>Moved the highpass portion after the comparator to make the length of the peak unaffected by the amplitude of the input signal.</li>
+<li>Made the circuit run on +12V/GND instead of +/-12V
+<ul>
+<li>Even though the TL07x are technically not rail-to-rail they seem to be able to get close enough to 0V on the output that they work just fine here.</li>
+</ul>
+</li>
+<li>Decreased the treshold for the input to ~1V.</li>
+<li>Got rid of the diode between R3 and U1D.
+<img src="sandelinos-envgen-schematic.svg" alt="Sandelinos' envelope generator schematic"></li>
+</ul>
+<h2 id="veroboard-layouts">Veroboard Layouts</h2>
+<h3 id="sandelinos-envelope-generator-1">Sandelinos' envelope generator</h3>
+<p><img src="sandelinos-envgen-vero.png" alt="Sandelinos' envelope generator veroboard layout"></p>
+<p>Based on the schematic above. Add a socket for C2 if you want to play around with different time ranges.</p>
+
+</div>
+
+        </div></body>
+</html>

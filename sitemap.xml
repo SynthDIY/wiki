@@ -5,6 +5,8 @@
     <loc>https://wiki.synthdiy.com/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</loc>
+  </url><url>
     <loc>https://wiki.synthdiy.com/tags/analogue/</loc>
   </url><url>
     <loc>https://wiki.synthdiy.com/modules/cv-sequencer/baby8/</loc>
@@ -20,6 +22,8 @@
     <loc>https://wiki.synthdiy.com/contribute/contributing-content-from-your-browser/</loc>
   </url><url>
     <loc>https://wiki.synthdiy.com/building-blocks/cv-input-stage/cv-input-to-microcontroller/</loc>
+  </url><url>
+    <loc>https://wiki.synthdiy.com/tags/envelope/</loc>
   </url><url>
     <loc>https://wiki.synthdiy.com/knowledge/</loc>
   </url><url>

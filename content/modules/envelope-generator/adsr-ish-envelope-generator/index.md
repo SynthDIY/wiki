@@ -42,7 +42,7 @@ The main changes made:
 
 Based on the schematic above. Add a socket for C2 if you want to play around with different time ranges.
 
-[DIYLC file download](sandelinos-envgen-diylc.diy) (right click and "save link as")
+[DIYLC file download](sandelinos-envgen-diylc.diy)
 
 ## Panels
 

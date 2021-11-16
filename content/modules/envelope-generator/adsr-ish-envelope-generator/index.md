@@ -41,3 +41,12 @@ The main changes made:
 ![Sandelinos' envelope generator veroboard layout](sandelinos-envgen-vero.png)
 
 Based on the schematic above. Add a socket for C2 if you want to play around with different time ranges.
+
+[DIYLC file download](sandelinos-envgen-diylc.diy) (right click and "save link as")
+
+## Panels
+
+[Sandelinos' envelope generator panel template](sandelinos-envgen-panel.svg) (right click and "save link as" to download)
+
+Basic 6HP panel with 3 pots, 2 jacks and a spot for the indicator LED. Intended for use with the vero layout above. It's pretty tight in terms of horizontal space but it'll fit if you clip the legs of VR1 after soldering it on.
+

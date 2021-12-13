@@ -29,7 +29,8 @@ This is a modified version of Moritz's original circuit.
 The main changes made:
 * Moved the highpass portion after the comparator to make the length of the peak unaffected by the amplitude of the input signal.
 * Made the circuit run on +12V/GND instead of +/-12V
-  * Even though the TL07x are technically not rail-to-rail they seem to be able to get close enough to 0V on the output that they work just fine here.
+  * +You can run this off of pretty much anything, even a 9V battery.
+  * -The output can't go below ~120mV so VCAs might not close fully etc.
 * Decreased the treshold for the input to ~1V.
 * Got rid of the diode between R3 and U1D.
 ![Sandelinos' envelope generator schematic](sandelinos-envgen-schematic.svg)

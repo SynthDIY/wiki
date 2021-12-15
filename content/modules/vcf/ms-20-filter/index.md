@@ -17,7 +17,12 @@ This is a redrawn version with component names matching those on Kassutronics' K
 * [GitHub](https://github.com/PierreIsCoding/sdiy/blob/main/MS_20_VCF_Clone/MS20_BY_LP_Schematic.pdf)
 
 ### Juanito Moore's schematic (Based on the RS-20)
-* [Google Drive](https://drive.google.com/file/d/1PnwspQndJK8oI6rkUyz9AkvxLnCkyd6k/view)
+![Juanito Moore's MS-20 schematic](m4tm-ms20-schematic.jpg)
+
+Juanito has added a trimpot for adjusting the amount of resonance to his design as well as an additional output buffer with volume adjustment.
+He has also increased the value of the filter capacitors to 1.5nF.
+
+Build video: [juanito moore - "You can build this MS-20 VCF with me!"](https://youtu.be/uq3TvPBio_g)
 
 ### Kassutronics' KS-20 schematic
 * [GitHub](https://github.com/kassu/kassutronics/blob/master/documentation/KS-20%20VCF/Kassutronics_KS-20_Build_Docs_1.1C.pdf)
@@ -49,8 +54,6 @@ To add more range to the resonance you can decrease the value of R13. René has 
 
 ## Videos
 * [Kristian Blåsol - "Late MS20 HP & LP VCF by Réne Schmitz (2nd MS20 filter) - DIY Modular in a Week 7.4"](https://youtu.be/t-B8FbF8-_8)
-* [juanito moore - "You can build this MS-20 VCF with me!"](https://youtu.be/uq3TvPBio_g)
-  - Point-to-point with no PCB.
 * [LOOK MUM NO COMPUTER - "Build An Analog Synth Filter Made EASYYYY."](https://youtu.be/q-2MkTAr4xk)
 
 

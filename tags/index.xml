@@ -16,11 +16,29 @@
     </item>
     
     <item>
+      <title>digital</title>
+      <link>https://wiki.synthdiy.com/tags/digital/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wiki.synthdiy.com/tags/digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>envelope</title>
       <link>https://wiki.synthdiy.com/tags/envelope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/tags/envelope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gate</title>
+      <link>https://wiki.synthdiy.com/tags/gate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wiki.synthdiy.com/tags/gate/</guid>
       <description></description>
     </item>
     
@@ -66,6 +84,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/tags/sequencer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trigger</title>
+      <link>https://wiki.synthdiy.com/tags/trigger/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wiki.synthdiy.com/tags/trigger/</guid>
       <description></description>
     </item>
     

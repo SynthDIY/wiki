@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+	
+	<title>SynthDIY Wiki | Digital Input to Microcontroller</title>
+</head>
+<body><header>
+	<a id=logo href="https://wiki.synthdiy.com">
+		<p style="margin: 0; color: white;">logo goes here</p>
+		
+	</a>
+	<nav>
+	
+		<a class=menubutton href="/">
+			<p class=menubuttontext>Home</p>
+		</a>
+	
+		<a class=menubutton href="/about/">
+			<p class=menubuttontext>About</p>
+		</a>
+	
+		<a class=menubutton href="/modules">
+			<p class=menubuttontext>Modules</p>
+		</a>
+	
+		<a class=menubutton href="/parts">
+			<p class=menubuttontext>Parts</p>
+		</a>
+	
+		<a class=menubutton href="/building-blocks">
+			<p class=menubuttontext>Building Blocks</p>
+		</a>
+	
+		<a class=menubutton href="/knowledge">
+			<p class=menubuttontext>Knowledge</p>
+		</a>
+	
+		<a class=menubutton href="/contribute">
+			<p class=menubuttontext>Contribute</p>
+		</a>
+	
+		<a class=menubutton href="/tags">
+			<p class=menubuttontext>Tags</p>
+		</a>
+	
+</nav>
+
+</header>
+<div id="content">
+<div id="content">
+	<h1>Digital Input to Microcontroller</h1>
+	<p>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.<br>
+Thus, if you would like to &lsquo;read&rsquo; a digital input such as a gate or external clock source from your microcontroller, you will need some method of conditioning the incoming voltage to prevent it from damaging the chip.</p>
+<p>One very basic method could be used, which is to simply &lsquo;clip&rsquo; the input voltage using diodes to the input range of the microcontroller, for example using this circuit found in the <a href="https://doepfer.de/DIY/a100_diy.htm">Doepfer DIY page</a><br>
+<img src="https://user-images.githubusercontent.com/79809962/146977585-e8bdfe69-e71a-4a7e-a47d-d230c48882c6.png" alt="image"></p>
+<p>This method however has its limitations. For one, if the incoming voltage is less than the microcontroller&rsquo;s input requirement for reading &lsquo;high&rsquo;, then no input will be registered.<br>
+This limitation would also be present if we simply scaled down the input voltage to make 12V into 5V or 3.3V; if the input was <em>less</em> than 12V, then the microcontroller wouldn&rsquo;t read an input as being high even when it was.</p>
+<p>What we would really like is a circuit that uses the incoming voltage to &lsquo;allow&rsquo; a second voltage, supplied by the microcontroller itself, to be connected to the input pin.<br>
+And, wouldn&rsquo;t you know, that&rsquo;s just what an NPN transistor can be used for!<br>
+The transistor has three terminals, called the &lsquo;collector&rsquo;, the &lsquo;base&rsquo;, and the &lsquo;emitter&rsquo;. When a voltage is received at the base, current is able to flow from the collector to the emitter.</p>
+<p>Thus, if we use a circuit where the collector is connected to the microcontroller input pin, the emitter is connected to ground, and the base is connected to the incoming signal, the incoming signal will &lsquo;allow&rsquo; the pin to be connected to ground (triggering the circuit) when it is high.<br>
+However, this circuit would also have some big problems, the largest being that with no input present, the pin would be &lsquo;floating&rsquo; which means it is not connected to anything and may fluctuate randomly between voltages.<br>
+What we need to add is what&rsquo;s called a &lsquo;pull-up resistor&rsquo;. This is essentially a default path for the pin which goes to the microcontroller&rsquo;s positive voltage rail, but which is overridden by the lower impedance path to ground when the transistor conducts.</p>
+<p>The circuit, including a 10k pull-up resistor, looks as follows:<br>
+<img src="https://user-images.githubusercontent.com/79809962/146978668-4944a99c-a10c-451e-89d4-ba2b81d9b353.png" alt="image"><br>
+There is also an input resistor of 100k, which will &lsquo;set&rsquo; the input impedance of the circuit. This prevents the circuit from drawing a huge amount of current from the input signal. The transistor used is a 2N2222, but any common NPN transistor will work, such as a 2N3904.
+The only extra part is a diode that only takes effect if a negative voltage is passed to the input, and will provide a path to ground to prevent damage to the transistor.</p>
+
+</div>
+
+        </div></body>
+</html>

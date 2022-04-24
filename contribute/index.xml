@@ -27,7 +27,7 @@ Type in the file path of the file you want to create and type in the content of 
       <description>All the content in the wiki lives in the /content folder of the repository and consists of pages written in markdown with a little bit of extra metadata.
 Article formatting The source of an article will look somewhat like this
 index.md:
---- title: &amp;quot;This is the title&amp;quot; tags: [&amp;quot;tag&amp;quot;, &amp;quot;tag2&amp;quot;] --- # this is a heading ## this is a smaller heading ### this is an even smaller heading Here is a paragraph which also has some *italics*, **bold** text and `monospace` * this is * a list 1.</description>
+--- title: &amp;#34;This is the title&amp;#34; tags: [&amp;#34;tag&amp;#34;, &amp;#34;tag2&amp;#34;] --- # this is a heading ## this is a smaller heading ### this is an even smaller heading Here is a paragraph which also has some *italics*, **bold** text and `monospace` * this is * a list 1.</description>
     </item>
     
   </channel>

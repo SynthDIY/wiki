@@ -74,7 +74,7 @@ One very basic method could be used, which is to simply &amp;lsquo;clip&amp;rsqu
       
       <guid>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</guid>
       <description>The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on his site. There is also a version designed by Kassutronics that adds a pot for blending between low/highpass and a drive knob to attenuate the input signal.
-Schematics René Schmitz&amp;rsquo;s schematic (RS-20) This is a redrawn version with component names matching those on Kassutronics&#39; KS-20 schematic.</description>
+Schematics René Schmitz&amp;rsquo;s schematic (RS-20) This is a redrawn version with component names matching those on Kassutronics&amp;rsquo; KS-20 schematic.</description>
     </item>
     
     <item>
@@ -86,7 +86,17 @@ Schematics René Schmitz&amp;rsquo;s schematic (RS-20) This is a redrawn version
       <description>All the content in the wiki lives in the /content folder of the repository and consists of pages written in markdown with a little bit of extra metadata.
 Article formatting The source of an article will look somewhat like this
 index.md:
---- title: &amp;quot;This is the title&amp;quot; tags: [&amp;quot;tag&amp;quot;, &amp;quot;tag2&amp;quot;] --- # this is a heading ## this is a smaller heading ### this is an even smaller heading Here is a paragraph which also has some *italics*, **bold** text and `monospace` * this is * a list 1.</description>
+--- title: &amp;#34;This is the title&amp;#34; tags: [&amp;#34;tag&amp;#34;, &amp;#34;tag2&amp;#34;] --- # this is a heading ## this is a smaller heading ### this is an even smaller heading Here is a paragraph which also has some *italics*, **bold** text and `monospace` * this is * a list 1.</description>
+    </item>
+    
+    <item>
+      <title>Where to find parts?</title>
+      <link>https://wiki.synthdiy.com/knowledge/where-to-find-parts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wiki.synthdiy.com/knowledge/where-to-find-parts/</guid>
+      <description>It can be pretty difficult to search for some parts on different stores so let&amp;rsquo;s try to compile a bunch of links to common parts at different stores here.
+3.5mm mono jacks  LCSC  XKB Connectivity PJ-301M-2-B   Reichelt  CLIFF FC6812 JYO-35 LUMBERG 1502-03  this one is a bit different to the others     Tayda  A-865 PJ-3001F (A-2563)  these have through-hole pins and are good for soldering on to PCBs     Thonk  Thonkiconn (PJ398SM)    3.</description>
     </item>
     
   </channel>

@@ -3,30 +3,28 @@ languageCode: en-us
 defaultContentLanguage: en
 title: SynthDIY Wiki
 theme: synth-wiki-theme
+summaryLength: 16
 
 menu:
   nav:
     - name: Home
       url: /
       weight: 1
-    - name: About
-      url: /about/
-      weight: 2
     - name: Modules
       url: /modules
-      weight: 3
+      weight: 2
     - name: Parts
       url: /parts
-      weight: 4
+      weight: 3
     - name: Building Blocks
       url: /building-blocks
-      weight: 5
+      weight: 4
     - name: Knowledge
       url: /knowledge
-      weight: 6
+      weight: 5
     - name: Contribute
       url: /contribute
-      weight: 7
+      weight: 6
     - name: Tags
       url: /tags
-      weight: 8
+      weight: 7

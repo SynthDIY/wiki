@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</guid>
-      <description>This is a simple but effective envelope generator designed by Moritz Klein in his video. It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters. The opposite polarity diodes in series with the pots let you control the rate the capacitor charges and discharges at independently, so you can adjust &amp;ldquo;attack&amp;rdquo; and &amp;ldquo;decay + release&amp;rdquo; independently.</description>
+      <description>This is a simple but effective envelope generator designed by Moritz Klein in his video. It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters.</description>
     </item>
     
     <item>
@@ -21,8 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</guid>
-      <description>The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on his site. There is also a version designed by Kassutronics that adds a pot for blending between low/highpass and a drive knob to attenuate the input signal.
-Schematics René Schmitz&amp;rsquo;s schematic (RS-20) This is a redrawn version with component names matching those on Kassutronics&amp;rsquo; KS-20 schematic.</description>
+      <description>The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on his site.</description>
     </item>
     
   </channel>

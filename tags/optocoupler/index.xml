@@ -12,8 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</guid>
-      <description>An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.
-Both the LED and the LDR have to be enclosed so no external light should reach the LDR. This article only describe an experienced method to make those little candies, but if you want more technical informations you can read this excellent blog article.</description>
+      <description>An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.</description>
     </item>
     
   </channel>

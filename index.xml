@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</guid>
-      <description>This is a simple but effective envelope generator designed by Moritz Klein in his video. It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters. The opposite polarity diodes in series with the pots let you control the rate the capacitor charges and discharges at independently, so you can adjust &amp;ldquo;attack&amp;rdquo; and &amp;ldquo;decay + release&amp;rdquo; independently.</description>
+      <description>This is a simple but effective envelope generator designed by Moritz Klein in his video. It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters.</description>
     </item>
     
     <item>
@@ -21,8 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/modules/cv-sequencer/baby8/</guid>
-      <description>The Baby-8 is a really simple and effective step sequencer built out of a CD4017(up to 10 steps) or CD4022(up to 8 steps) counter chip.
-Schematics Eddy Bergman&amp;rsquo;s Simple 8 Step Sequencer Kristian Blåsol&amp;rsquo;s Baby 8  Basic Baby 8 DropBox Baby8 Part2 Gates and resets DropBox Baby8 part3 gates reset and controls DropBox Baby8 Part4 Cascading DropBox  Videos  Kristian Blåsol - &amp;ldquo;Basic Baby8 CV only Sequencer - DIY Modular in a Week 10.</description>
+      <description>The Baby-8 is a really simple and effective step sequencer built out of a CD4017(up to 10 steps) or CD4022(up to 8 steps) counter chip.</description>
     </item>
     
     <item>
@@ -31,8 +30,7 @@ Schematics Eddy Bergman&amp;rsquo;s Simple 8 Step Sequencer Kristian Blåsol&amp
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</guid>
-      <description>An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.
-Both the LED and the LDR have to be enclosed so no external light should reach the LDR. This article only describe an experienced method to make those little candies, but if you want more technical informations you can read this excellent blog article.</description>
+      <description>An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.</description>
     </item>
     
     <item>
@@ -41,10 +39,7 @@ Both the LED and the LDR have to be enclosed so no external light should reach t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/contribute/contributing-content-from-your-browser/</guid>
-      <description>First you need to create a GitHub account, log in and navigate to our GitHub repository
-Adding a simple article Click on Add file -&amp;gt; Create new file
-Github will notify you that it has automatically forked the repository for you.
-Type in the file path of the file you want to create and type in the content of your article (/ works as a directory separator). Info on article formatting and our directory structure is available in here</description>
+      <description>First you need to create a GitHub account, log in and navigate to our GitHub repository</description>
     </item>
     
     <item>
@@ -53,7 +48,7 @@ Type in the file path of the file you want to create and type in the content of 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/building-blocks/cv-input-to-microcontroller/</guid>
-      <description>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V. To allow you to &amp;lsquo;read&amp;rsquo; the whole 12V CV range, you need to perform something called &amp;lsquo;signal conditioning&amp;rsquo;. This means that you want to &amp;lsquo;condition&amp;rsquo; the potential range of ±12V into 0-3.</description>
+      <description>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.</description>
     </item>
     
     <item>
@@ -62,9 +57,7 @@ Type in the file path of the file you want to create and type in the content of 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/building-blocks/digital-input-to-microcontroller/</guid>
-      <description>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.
-Thus, if you would like to &amp;lsquo;read&amp;rsquo; a digital input such as a gate or external clock source from your microcontroller, you will need some method of conditioning the incoming voltage to prevent it from damaging the chip.
-One very basic method could be used, which is to simply &amp;lsquo;clip&amp;rsquo; the input voltage using diodes to the input range of the microcontroller, for example using this circuit found in the Doepfer DIY page</description>
+      <description>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.</description>
     </item>
     
     <item>
@@ -73,8 +66,7 @@ One very basic method could be used, which is to simply &amp;lsquo;clip&amp;rsqu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</guid>
-      <description>The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on his site. There is also a version designed by Kassutronics that adds a pot for blending between low/highpass and a drive knob to attenuate the input signal.
-Schematics René Schmitz&amp;rsquo;s schematic (RS-20) This is a redrawn version with component names matching those on Kassutronics&amp;rsquo; KS-20 schematic.</description>
+      <description>The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on his site.</description>
     </item>
     
     <item>
@@ -83,10 +75,7 @@ Schematics René Schmitz&amp;rsquo;s schematic (RS-20) This is a redrawn version
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/contribute/repository-structure-and-article-formatting/</guid>
-      <description>All the content in the wiki lives in the /content folder of the repository and consists of pages written in markdown with a little bit of extra metadata.
-Article formatting The source of an article will look somewhat like this
-index.md:
---- title: &amp;#34;This is the title&amp;#34; tags: [&amp;#34;tag&amp;#34;, &amp;#34;tag2&amp;#34;] --- # this is a heading ## this is a smaller heading ### this is an even smaller heading Here is a paragraph which also has some *italics*, **bold** text and `monospace` * this is * a list 1.</description>
+      <description>All the content in the wiki lives in the /content folder of the repository and consists of pages written in markdown with a little bit of extra metadata.</description>
     </item>
     
     <item>
@@ -95,8 +84,7 @@ index.md:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/parts/where-to-find-parts/</guid>
-      <description>It can be pretty difficult to search for some parts on different stores so let&amp;rsquo;s try to compile a bunch of links to common parts at different stores here.
-3.5mm mono jacks  LCSC  XKB Connectivity PJ-301M-2-B   Reichelt  CLIFF FC6812 JYO-35 LUMBERG 1502-03  this one is a bit different to the others     Tayda  A-865 PJ-3001F (A-2563)  these have through-hole pins and are good for soldering on to PCBs     Thonk  Thonkiconn (PJ398SM)    3.</description>
+      <description>It can be pretty difficult to search for some parts on different stores so let&amp;rsquo;s try to compile a bunch of links to common parts at different stores here.</description>
     </item>
     
   </channel>

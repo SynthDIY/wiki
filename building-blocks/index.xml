@@ -12,8 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</guid>
-      <description>An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.
-Both the LED and the LDR have to be enclosed so no external light should reach the LDR. This article only describe an experienced method to make those little candies, but if you want more technical informations you can read this excellent blog article.</description>
+      <description>An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.</description>
     </item>
     
     <item>
@@ -22,7 +21,7 @@ Both the LED and the LDR have to be enclosed so no external light should reach t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/building-blocks/cv-input-to-microcontroller/</guid>
-      <description>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V. To allow you to &amp;lsquo;read&amp;rsquo; the whole 12V CV range, you need to perform something called &amp;lsquo;signal conditioning&amp;rsquo;. This means that you want to &amp;lsquo;condition&amp;rsquo; the potential range of ±12V into 0-3.</description>
+      <description>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.</description>
     </item>
     
     <item>
@@ -31,9 +30,7 @@ Both the LED and the LDR have to be enclosed so no external light should reach t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/building-blocks/digital-input-to-microcontroller/</guid>
-      <description>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.
-Thus, if you would like to &amp;lsquo;read&amp;rsquo; a digital input such as a gate or external clock source from your microcontroller, you will need some method of conditioning the incoming voltage to prevent it from damaging the chip.
-One very basic method could be used, which is to simply &amp;lsquo;clip&amp;rsquo; the input voltage using diodes to the input range of the microcontroller, for example using this circuit found in the Doepfer DIY page</description>
+      <description>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.</description>
     </item>
     
   </channel>

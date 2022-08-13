@@ -12,10 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/contribute/contributing-content-from-your-browser/</guid>
-      <description>First you need to create a GitHub account, log in and navigate to our GitHub repository
-Adding a simple article Click on Add file -&amp;gt; Create new file
-Github will notify you that it has automatically forked the repository for you.
-Type in the file path of the file you want to create and type in the content of your article (/ works as a directory separator). Info on article formatting and our directory structure is available in here</description>
+      <description>First you need to create a GitHub account, log in and navigate to our GitHub repository</description>
     </item>
     
     <item>
@@ -24,10 +21,7 @@ Type in the file path of the file you want to create and type in the content of 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://wiki.synthdiy.com/contribute/repository-structure-and-article-formatting/</guid>
-      <description>All the content in the wiki lives in the /content folder of the repository and consists of pages written in markdown with a little bit of extra metadata.
-Article formatting The source of an article will look somewhat like this
-index.md:
---- title: &amp;#34;This is the title&amp;#34; tags: [&amp;#34;tag&amp;#34;, &amp;#34;tag2&amp;#34;] --- # this is a heading ## this is a smaller heading ### this is an even smaller heading Here is a paragraph which also has some *italics*, **bold** text and `monospace` * this is * a list 1.</description>
+      <description>All the content in the wiki lives in the /content folder of the repository and consists of pages written in markdown with a little bit of extra metadata.</description>
     </item>
     
   </channel>

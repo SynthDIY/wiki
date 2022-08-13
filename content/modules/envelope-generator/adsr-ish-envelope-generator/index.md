@@ -1,6 +1,6 @@
 ---
 title: "ADSR(-ish) envelope generator"
-tags: ["envelope", "veroboard"]
+tags: ["envelope"]
 --- 
 
 This is a simple but effective envelope generator designed by Moritz Klein in [his video](https://www.youtube.com/watch?v=aGFb7JbTdNU).

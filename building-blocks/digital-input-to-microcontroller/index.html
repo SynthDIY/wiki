@@ -3,7 +3,7 @@
     <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="/css/style.ae8a6a8cd0d52fcdcfde7a6a2a242414c668caf8bf4a399de6c6afb5c859f9ee.css" integrity="sha256-ropqjNDVL83P3npqKiQkFMZoyvi/Sjmd5savtchZ&#43;e4=">
+	<link rel="stylesheet" type="text/css" href="/css/style.8f3c9890d73d69a948743d244525da768a03c92cd9c73f1c19d3d3332aed392f.css" integrity="sha256-jzyYkNc9aalIdD0kRSXadooDySzZxz8cGdPTMyrtOS8=">
 	<title>Digital Input to Microcontroller | SynthDIY Wiki</title>
 </head>
 
@@ -24,9 +24,8 @@
 </header>
 
         <div id="content">
-<div id="content">
-	<h1>Digital Input to Microcontroller</h1>
-	<p>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.<br>
+<h1>Digital Input to Microcontroller</h1>
+<p>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.<br>
 Thus, if you would like to &lsquo;read&rsquo; a digital input such as a gate or external clock source from your microcontroller, you will need some method of conditioning the incoming voltage to prevent it from damaging the chip.</p>
 <p>One very basic method could be used, which is to simply &lsquo;clip&rsquo; the input voltage using diodes to the input range of the microcontroller, for example using this circuit found in the <a href="https://doepfer.de/DIY/a100_diy.htm">Doepfer DIY page</a></p>
 <p><img src="https://user-images.githubusercontent.com/79809962/146977585-e8bdfe69-e71a-4a7e-a47d-d230c48882c6.png" alt="image"></p>
@@ -43,7 +42,6 @@ What we need to add is what&rsquo;s called a &lsquo;pull-up resistor&rsquo;. Thi
 There is also an input resistor of 100k, which will &lsquo;set&rsquo; the input impedance of the circuit. This prevents the circuit from drawing a huge amount of current from the input signal. The transistor used is a 2N2222, but any common NPN transistor will work, such as a 2N3904.
 The only extra part is a diode that only takes effect if a negative voltage is passed to the input, and will provide a path to ground to prevent damage to the transistor.</p>
 
-</div>
 
         </div></body>
 </html>

@@ -6,6 +6,10 @@ body {
 	font-family: sans-serif;
 }
 
+h1, h2, h3 {
+	color: #8a1414;
+}
+
 a {
 	color: #b71a1a;
 }
@@ -14,7 +18,7 @@ a:visited {
 	color: #590d0d;
 }
 
-a:hover, a.hover {
+a:hover {
 	color: #8a1414;
 }
 
@@ -32,6 +36,10 @@ header {
 	max-width: 60em;
 	padding: 0 0.5rem;
 	margin: auto;
+	background-color: #ffffda;
+	border: 1px solid #ab1100;
+	border-radius: 0.5em;
+	margin-top: 1rem;
 }
 
 img {
@@ -48,18 +56,22 @@ nav {
 }
 
 .menubutton {
-	color: #ffffff;
+	color: #fceded;
 	text-decoration: none;
-	padding: 1em;
-	margin: 0;
+	padding: 0.8em 1em;
+	margin: 0.4em 0.2em;
+	background-image: linear-gradient(#cd1400, #950f00);
+	border-radius: 0.5rem;
+	box-shadow: 0.1rem 0.1rem 0.2rem 0 rgba(0,0,0,0.5);
 }
 
 .menubutton:visited {
-	color:#ffffff;
+	color: #fceded;
 }
 
 .menubutton:hover {
-	color:#ffffcc;
+	color: #fcfce9;
+	background-image: linear-gradient(#e23333, #c41c1c);
 }
 
 .list-article {
@@ -67,6 +79,7 @@ nav {
 	border-radius: 0.5em;
 	margin: 1em 0;
 	padding: 0 1rem;
+	background-color: #f9f9d2;
 }
 
 .list-article h2 {

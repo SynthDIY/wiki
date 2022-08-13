@@ -3,7 +3,7 @@
     <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="/css/style.ae8a6a8cd0d52fcdcfde7a6a2a242414c668caf8bf4a399de6c6afb5c859f9ee.css" integrity="sha256-ropqjNDVL83P3npqKiQkFMZoyvi/Sjmd5savtchZ&#43;e4=">
+	<link rel="stylesheet" type="text/css" href="/css/style.8f3c9890d73d69a948743d244525da768a03c92cd9c73f1c19d3d3332aed392f.css" integrity="sha256-jzyYkNc9aalIdD0kRSXadooDySzZxz8cGdPTMyrtOS8=">
 	<title>CV Input to Microcontroller | SynthDIY Wiki</title>
 </head>
 
@@ -24,9 +24,8 @@
 </header>
 
         <div id="content">
-<div id="content">
-	<h1>CV Input to Microcontroller</h1>
-	<p>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V.
+<h1>CV Input to Microcontroller</h1>
+<p>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V.
 To allow you to &lsquo;read&rsquo; the whole 12V CV range, you need to perform something called &lsquo;signal conditioning&rsquo;.
 This means that you want to &lsquo;condition&rsquo; the potential range of ±12V into 0-3.3V, cutting out any parts you don&rsquo;t need to read, and scaling the parts that you do to the readable range.</p>
 <p>One excellent circuit for doing just this, has been designed by Émilie Gillet of Mutable Instruments.</p>
@@ -44,7 +43,6 @@ positive = positive.</p>
 <p>This circuit in its entirety will thus take a signal that potentially is anywhere in the range ±12V, and allow you to &lsquo;read&rsquo; 0-12V, and will safely clip anything below 0V to keep it at 0V. This is of course a limitation of this circuit; that it cannot &lsquo;read&rsquo; negative input CV.</p>
 <p>This is an <a href="https://www.falstad.com/circuit/circuitjs.html?cct=$+1+0.000005+10.20027730826997+50+5+43%0Aa+128+256+240+256+8+12+-12+1000000+0.000023399707503656204+0+100000%0Aa+336+272+448+272+8+3.3+0+1000000+-0.000023399239518865825+0+100000%0Ar+128+176+240+176+0+25000%0Ar+128+176+16+176+0+100000%0Ar+240+256+336+256+0+25000%0Aw+240+176+240+256+0%0Aw+128+240+128+176+0%0Ar+336+208+448+208+0+25000%0Aw+336+208+336+256+0%0Aw+448+208+448+272+0%0Ag+128+272+128+288+0%0Ag+336+288+336+304+0%0AO+448+272+496+272+0%0A172+16+176+-64+176+0+7+9.36+12+-12+0+0.5+Voltage%0Ao+12+64+0+4098+5+0.1+0+1%0A">interactive version of the schematic</a> created by <a href="https://twitter.com/theavalkyrie">Thea Flowers (Stargirl)</a> of <a href="https://winterbloom.com/">Winterbloom</a></p>
 
-</div>
 
         </div></body>
 </html>

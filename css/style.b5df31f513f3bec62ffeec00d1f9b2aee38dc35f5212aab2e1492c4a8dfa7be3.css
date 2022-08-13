@@ -37,8 +37,8 @@ header {
 	padding: 0 0.5rem;
 	margin: auto;
 	background-color: #ffffda;
-	border: 1px solid #ab1100;
-	border-radius: 0.5em;
+	border: 0.2rem solid #b89d75;
+	border-radius: 1rem;
 	margin-top: 1rem;
 }
 
@@ -75,7 +75,7 @@ nav {
 }
 
 .list-article {
-	border: 1px solid #ab1100;
+	border: 0.1rem solid #ab1100;
 	border-radius: 0.5em;
 	margin: 1em 0;
 	padding: 0 1rem;

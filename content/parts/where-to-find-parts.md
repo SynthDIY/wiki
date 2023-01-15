@@ -8,6 +8,7 @@ It can be pretty difficult to search for some parts on different stores so let's
 ## 3.5mm mono jacks
 * LCSC
   - [XKB Connectivity PJ-301M-2-B](https://lcsc.com/product-detail/Audio-Connectors_XKB-Connectivity-PJ-301M-2-B_C381126.html)
+  - [Shenzhen Kinghelm Elec KH-PJ-301M](https://www.lcsc.com/product-detail/Audio-Connectors_Shenzhen-Kinghelm-Elec-KH-PJ-301M_C5123127.html)
 * Reichelt
   - [CLIFF FC6812 JYO-35](https://www.reichelt.com/jack-socket-2-pin-3-5-mm-cliff-fc6812-p228179.html)
   - [LUMBERG 1502-03](https://www.reichelt.com/jack-panel-socket-3-5-mm-mono-break-contact-pcb-lum-1502-03-p116176.html)

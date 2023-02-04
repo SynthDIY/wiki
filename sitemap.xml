@@ -5,6 +5,8 @@
     <loc>https://wiki.synthdiy.com/</loc>
     <priority>0</priority>
   </url><url>
+    <loc>https://wiki.synthdiy.com/parts/jack-sockets/</loc>
+  </url><url>
     <loc>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</loc>
   </url><url>
     <loc>https://wiki.synthdiy.com/tags/analogue/</loc>
@@ -47,6 +49,10 @@
   </url><url>
     <loc>https://wiki.synthdiy.com/parts/</loc>
   </url><url>
+    <loc>https://wiki.synthdiy.com/parts/power-cables/</loc>
+  </url><url>
+    <loc>https://wiki.synthdiy.com/parts/power-headers/</loc>
+  </url><url>
     <loc>https://wiki.synthdiy.com/tags/protoboard/</loc>
   </url><url>
     <loc>https://wiki.synthdiy.com/contribute/repository-structure-and-article-formatting/</loc>
@@ -62,7 +68,5 @@
     <loc>https://wiki.synthdiy.com/tags/vcf/</loc>
   </url><url>
     <loc>https://wiki.synthdiy.com/tags/veroboard/</loc>
-  </url><url>
-    <loc>https://wiki.synthdiy.com/parts/where-to-find-parts/</loc>
   </url>
 </urlset>

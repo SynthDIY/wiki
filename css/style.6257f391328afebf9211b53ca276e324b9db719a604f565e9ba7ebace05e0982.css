@@ -27,6 +27,11 @@ header {
 	 display: flex;
 }
 
+th {
+	text-align: left;
+	padding-right: 1rem;
+}
+
 #logo {
 	width: 3em;
 	height: 3em;
@@ -119,4 +124,22 @@ pre {
 
 pre code {
 	padding: 0;
+}
+
+.component {
+	border: 0.1rem solid #ab1100;
+	border-radius: 0.5em;
+	margin: 1em 0;
+	padding: 0 1rem;
+	background-color: #f9f9d2;
+}
+.component-header {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+.component-header h3 {
+	flex: 1;
+	margin-top: 0.6rem;
+	margin-bottom: 0.6rem;
 }

@@ -1,5 +1,6 @@
 ---
 title: "3.5mm jack sockets"
+summary: "mono and stereo jack sockets for your modules"
 --- 
 
 ## Mono jacks with switching contact

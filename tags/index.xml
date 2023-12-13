@@ -5,123 +5,98 @@
     <link>https://wiki.synthdiy.com/tags/</link>
     <description>Recent content in Tags on SynthDIY Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://wiki.synthdiy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://wiki.synthdiy.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>analogue</title>
       <link>https://wiki.synthdiy.com/tags/analogue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/analogue/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>digital</title>
       <link>https://wiki.synthdiy.com/tags/digital/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/digital/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>envelope</title>
       <link>https://wiki.synthdiy.com/tags/envelope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/envelope/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>gate</title>
       <link>https://wiki.synthdiy.com/tags/gate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/gate/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>microcontroller</title>
       <link>https://wiki.synthdiy.com/tags/microcontroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/microcontroller/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>op-amp</title>
       <link>https://wiki.synthdiy.com/tags/op-amp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/op-amp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>optocoupler</title>
       <link>https://wiki.synthdiy.com/tags/optocoupler/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/optocoupler/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>protoboard</title>
       <link>https://wiki.synthdiy.com/tags/protoboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/protoboard/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>sequencer</title>
       <link>https://wiki.synthdiy.com/tags/sequencer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/sequencer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>trigger</title>
       <link>https://wiki.synthdiy.com/tags/trigger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/trigger/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>vactrol</title>
       <link>https://wiki.synthdiy.com/tags/vactrol/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/vactrol/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>vcf</title>
       <link>https://wiki.synthdiy.com/tags/vcf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/vcf/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>veroboard</title>
       <link>https://wiki.synthdiy.com/tags/veroboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/tags/veroboard/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -5,42 +5,35 @@
     <link>https://wiki.synthdiy.com/parts/</link>
     <description>Recent content in Parts on SynthDIY Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://wiki.synthdiy.com/parts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://wiki.synthdiy.com/parts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3.5mm jack sockets</title>
       <link>https://wiki.synthdiy.com/parts/jack-sockets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/parts/jack-sockets/</guid>
       <description>mono and stereo jack sockets for your modules</description>
     </item>
-    
     <item>
       <title>Operational transconductance amplifiers</title>
       <link>https://wiki.synthdiy.com/parts/otas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/parts/otas/</guid>
       <description>Texas instruments has discontinued the DIP-16 version of the LM13700 so they are getting harder to buy.</description>
     </item>
-    
     <item>
       <title>Power cables</title>
       <link>https://wiki.synthdiy.com/parts/power-cables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/parts/power-cables/</guid>
       <description>Parts to make your own eurorack power cables</description>
     </item>
-    
     <item>
       <title>Power headers</title>
       <link>https://wiki.synthdiy.com/parts/power-headers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/parts/power-headers/</guid>
       <description>Eurorack power headers</description>
     </item>
-    
   </channel>
 </rss>

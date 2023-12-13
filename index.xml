@@ -5,114 +5,91 @@
     <link>https://wiki.synthdiy.com/</link>
     <description>Recent content on SynthDIY Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://wiki.synthdiy.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://wiki.synthdiy.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3.5mm jack sockets</title>
       <link>https://wiki.synthdiy.com/parts/jack-sockets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/parts/jack-sockets/</guid>
       <description>mono and stereo jack sockets for your modules</description>
     </item>
-    
     <item>
       <title>ADSR(-ish) envelope generator</title>
       <link>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</guid>
       <description>This is a simple but effective envelope generator designed by Moritz Klein in his video. It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters.</description>
     </item>
-    
     <item>
       <title>Baby-8 CV Sequencer</title>
       <link>https://wiki.synthdiy.com/modules/cv-sequencer/baby8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/modules/cv-sequencer/baby8/</guid>
       <description>The Baby-8 is a really simple and effective step sequencer built out of a CD4017(up to 10 steps) or CD4022(up to 8 steps) counter chip.</description>
     </item>
-    
     <item>
       <title>Bake your own vactrols !</title>
       <link>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</guid>
       <description>An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.</description>
     </item>
-    
     <item>
       <title>Contributing content from your browser</title>
       <link>https://wiki.synthdiy.com/contribute/contributing-content-from-your-browser/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/contribute/contributing-content-from-your-browser/</guid>
       <description>First you need to create a GitHub account, log in and navigate to our GitHub repository</description>
     </item>
-    
     <item>
       <title>CV Input to Microcontroller</title>
       <link>https://wiki.synthdiy.com/building-blocks/cv-input-to-microcontroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/building-blocks/cv-input-to-microcontroller/</guid>
       <description>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.</description>
     </item>
-    
     <item>
       <title>Digital Input to Microcontroller</title>
       <link>https://wiki.synthdiy.com/building-blocks/digital-input-to-microcontroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/building-blocks/digital-input-to-microcontroller/</guid>
       <description>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.</description>
     </item>
-    
     <item>
       <title>MS-20 Filter</title>
       <link>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</guid>
       <description>The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on his site.</description>
     </item>
-    
     <item>
       <title>Operational transconductance amplifiers</title>
       <link>https://wiki.synthdiy.com/parts/otas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/parts/otas/</guid>
       <description>Texas instruments has discontinued the DIP-16 version of the LM13700 so they are getting harder to buy.</description>
     </item>
-    
     <item>
       <title>Power cables</title>
       <link>https://wiki.synthdiy.com/parts/power-cables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/parts/power-cables/</guid>
       <description>Parts to make your own eurorack power cables</description>
     </item>
-    
     <item>
       <title>Power headers</title>
       <link>https://wiki.synthdiy.com/parts/power-headers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/parts/power-headers/</guid>
       <description>Eurorack power headers</description>
     </item>
-    
     <item>
       <title>Repository structure and article formatting</title>
       <link>https://wiki.synthdiy.com/contribute/repository-structure-and-article-formatting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/contribute/repository-structure-and-article-formatting/</guid>
       <description>All the content in the wiki lives in the /content folder of the repository and consists of pages written in markdown with a little bit of extra metadata.</description>
     </item>
-    
   </channel>
 </rss>

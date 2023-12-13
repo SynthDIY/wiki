@@ -5,15 +5,14 @@
     <link>https://wiki.synthdiy.com/tags/vactrol/</link>
     <description>Recent content in vactrol on SynthDIY Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://wiki.synthdiy.com/tags/vactrol/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://wiki.synthdiy.com/tags/vactrol/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bake your own vactrols !</title>
       <link>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</guid>
       <description>An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.</description>
     </item>
-    
   </channel>
 </rss>

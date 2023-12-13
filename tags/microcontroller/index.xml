@@ -5,24 +5,21 @@
     <link>https://wiki.synthdiy.com/tags/microcontroller/</link>
     <description>Recent content in microcontroller on SynthDIY Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://wiki.synthdiy.com/tags/microcontroller/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://wiki.synthdiy.com/tags/microcontroller/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CV Input to Microcontroller</title>
       <link>https://wiki.synthdiy.com/building-blocks/cv-input-to-microcontroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/building-blocks/cv-input-to-microcontroller/</guid>
       <description>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.</description>
     </item>
-    
     <item>
       <title>Digital Input to Microcontroller</title>
       <link>https://wiki.synthdiy.com/building-blocks/digital-input-to-microcontroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/building-blocks/digital-input-to-microcontroller/</guid>
       <description>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.</description>
     </item>
-    
   </channel>
 </rss>

@@ -5,15 +5,14 @@
     <link>https://wiki.synthdiy.com/tags/veroboard/</link>
     <description>Recent content in veroboard on SynthDIY Wiki</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://wiki.synthdiy.com/tags/veroboard/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://wiki.synthdiy.com/tags/veroboard/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MS-20 Filter</title>
       <link>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</guid>
       <description>The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on his site.</description>
     </item>
-    
   </channel>
 </rss>

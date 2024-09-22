@@ -60,6 +60,20 @@ summary: "mono and stereo jack sockets for your modules"
     link="https://www.thonk.co.uk/shop/thonkiconn/"
     datasheet="https://www.thonk.co.uk/wp-content/uploads/2018/07/Thonkiconn_Jack_Datasheet-new.jpg"
 >}}
+{{< component
+    shop="teian"
+    manufacturer="Teian"
+    partno="MAGENTA"
+    link="https://shop.teian.world/product/magenta-beryllium-copper-3-5mm-jack-socket/"
+    datasheet="https://shop.teian.world/wp-content/uploads/2024/07/sdfsdf-1536x1106.png"
+>}}
+{{< component
+    shop="teian"
+    manufacturer="Teian"
+    partno="PJ301F"
+    link="https://shop.teian.world/product/black-3-5mm-socket-pj-301m-mono-phosphor-copper-20pcs-with-nuts/"
+    datasheet="https://shop.teian.world/wp-content/uploads/2024/08/%E7%94%BB%E6%9D%BF-1.png"
+>}}
 
 ## Stereo jacks
 {{< component

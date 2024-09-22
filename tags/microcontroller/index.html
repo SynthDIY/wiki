@@ -4,12 +4,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="/css/style.6257f391328afebf9211b53ca276e324b9db719a604f565e9ba7ebace05e0982.css" integrity="sha256-YlfzkTKK/r&#43;SEbU8onbjJLnbcZpgT1Zem6frrOBeCYI=">
-	<title>microcontroller | SynthDIY Wiki</title>
+	<title>Microcontroller | SynthDIY Wiki</title>
 </head>
 
     <body>
         <header>
-	<a id=logo href="https://wiki.synthdiy.com">
+	<a id=logo href="https://wiki.synthdiy.com/">
 		<p style="margin: 0; color: white;">logo goes here</p>
 	</a>
 	<nav>
@@ -24,11 +24,12 @@
 </header>
 
         <div id="content">
-<h1>microcontroller</h1>
+<h1>Microcontroller</h1>
 <article class="list-article">
 	<a href="/building-blocks/digital-input-to-microcontroller/">
 		<h2>Digital Input to Microcontroller</h2>
-		<p>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V....</p>
+		<p><p>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.<br>
+Thus, if you would like to &lsquo;read&rsquo; a digital input such as a gate or external clock source from your microcontroller, you will need some method of conditioning the incoming voltage to prevent it from damaging the chip.</p>...</p>
 	</a>
 	<div class="tagslist">
 		
@@ -45,7 +46,9 @@
 <article class="list-article">
 	<a href="/building-blocks/cv-input-to-microcontroller/">
 		<h2>CV Input to Microcontroller</h2>
-		<p>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3....</p>
+		<p><p>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V.
+To allow you to &lsquo;read&rsquo; the whole 12V CV range, you need to perform something called &lsquo;signal conditioning&rsquo;.
+This means that you want to &lsquo;condition&rsquo; the potential range of ±12V into 0-3.3V, cutting out any parts you don&rsquo;t need to read, and scaling the parts that you do to the readable range.</p>...</p>
 	</a>
 	<div class="tagslist">
 		

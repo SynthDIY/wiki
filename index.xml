@@ -4,7 +4,7 @@
     <title>SynthDIY Wiki</title>
     <link>https://wiki.synthdiy.com/</link>
     <description>Recent content on SynthDIY Wiki</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://wiki.synthdiy.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -19,56 +19,56 @@
       <link>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</guid>
-      <description>This is a simple but effective envelope generator designed by Moritz Klein in his video. It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters.</description>
+      <description>&lt;p&gt;This is a simple but effective envelope generator designed by Moritz Klein in &lt;a href=&#34;https://www.youtube.com/watch?v=aGFb7JbTdNU&#34;&gt;his video&lt;/a&gt;.&#xA;It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters.&#xA;The opposite polarity diodes in series with the pots let you control the rate the capacitor charges and discharges at independently, so you can adjust &amp;ldquo;attack&amp;rdquo; and &amp;ldquo;decay + release&amp;rdquo; independently.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Baby-8 CV Sequencer</title>
       <link>https://wiki.synthdiy.com/modules/cv-sequencer/baby8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/modules/cv-sequencer/baby8/</guid>
-      <description>The Baby-8 is a really simple and effective step sequencer built out of a CD4017(up to 10 steps) or CD4022(up to 8 steps) counter chip.</description>
+      <description>&lt;p&gt;The Baby-8 is a really simple and effective step sequencer built out of a CD4017(up to 10 steps) or CD4022(up to 8 steps) counter chip.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bake your own vactrols !</title>
       <link>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/building-blocks/bake-your-vactrols/</guid>
-      <description>An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.</description>
+      <description>&lt;p&gt;An optocoupler allows signal transmition between two isolated circuits with two parts: an LED that emits infrared light and a photosensitive device (LDR) which detects light from the LED.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contributing content from your browser</title>
       <link>https://wiki.synthdiy.com/contribute/contributing-content-from-your-browser/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/contribute/contributing-content-from-your-browser/</guid>
-      <description>First you need to create a GitHub account, log in and navigate to our GitHub repository</description>
+      <description>&lt;p&gt;First you need to create a GitHub account, log in and navigate to &lt;a href=&#34;https://github.com/SynthDIY/wiki&#34;&gt;our GitHub repository&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;adding-a-simple-article&#34;&gt;Adding a simple article&lt;/h2&gt;&#xA;&lt;p&gt;Click on &lt;code&gt;Add file&lt;/code&gt; -&amp;gt; &lt;code&gt;Create new file&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>CV Input to Microcontroller</title>
       <link>https://wiki.synthdiy.com/building-blocks/cv-input-to-microcontroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/building-blocks/cv-input-to-microcontroller/</guid>
-      <description>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.</description>
+      <description>&lt;p&gt;Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V.&#xA;To allow you to &amp;lsquo;read&amp;rsquo; the whole 12V CV range, you need to perform something called &amp;lsquo;signal conditioning&amp;rsquo;.&#xA;This means that you want to &amp;lsquo;condition&amp;rsquo; the potential range of ±12V into 0-3.3V, cutting out any parts you don&amp;rsquo;t need to read, and scaling the parts that you do to the readable range.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Digital Input to Microcontroller</title>
       <link>https://wiki.synthdiy.com/building-blocks/digital-input-to-microcontroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/building-blocks/digital-input-to-microcontroller/</guid>
-      <description>Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.</description>
+      <description>&lt;p&gt;Most microcontrollers run on either 3.3V or 5V logic, whereas Eurorack gates and triggers are usually between 5-8V.&lt;br&gt;&#xA;Thus, if you would like to &amp;lsquo;read&amp;rsquo; a digital input such as a gate or external clock source from your microcontroller, you will need some method of conditioning the incoming voltage to prevent it from damaging the chip.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MS-20 Filter</title>
       <link>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</guid>
-      <description>The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on his site.</description>
+      <description>&lt;p&gt;The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on &lt;a href=&#34;https://schmitzbits.de/ms20.html&#34;&gt;his site&lt;/a&gt;.&#xA;There is also a version designed by Kassutronics that adds a pot for blending between low/highpass and a drive knob to attenuate the input signal.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Operational transconductance amplifiers</title>
       <link>https://wiki.synthdiy.com/parts/otas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/parts/otas/</guid>
-      <description>Texas instruments has discontinued the DIP-16 version of the LM13700 so they are getting harder to buy.</description>
+      <description>&lt;p&gt;Texas instruments has discontinued the DIP-16 version of the LM13700 so they are getting harder to buy. You can use a SOIC to DIP adapter board to fit a SOIC-16 LM13700M/LM13700MX chip into a DIP-16 footprint. There is also a clone of the LM13700 called XD13700 made by a company called XINLUDA that is still manufactured in a DIP-16 package.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Power cables</title>
@@ -89,7 +89,7 @@
       <link>https://wiki.synthdiy.com/contribute/repository-structure-and-article-formatting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/contribute/repository-structure-and-article-formatting/</guid>
-      <description>All the content in the wiki lives in the /content folder of the repository and consists of pages written in markdown with a little bit of extra metadata.</description>
+      <description>&lt;p&gt;All the content in the wiki lives in the &lt;a href=&#34;https://github.com/SynthDIY/wiki/tree/main/content&#34;&gt;&lt;code&gt;/content&lt;/code&gt;&lt;/a&gt; folder of the repository and consists of pages written in markdown with a little bit of extra metadata.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

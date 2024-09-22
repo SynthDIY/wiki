@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>envelope on SynthDIY Wiki</title>
+    <title>Envelope on SynthDIY Wiki</title>
     <link>https://wiki.synthdiy.com/tags/envelope/</link>
-    <description>Recent content in envelope on SynthDIY Wiki</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Envelope on SynthDIY Wiki</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://wiki.synthdiy.com/tags/envelope/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <link>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</guid>
-      <description>This is a simple but effective envelope generator designed by Moritz Klein in his video. It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters.</description>
+      <description>&lt;p&gt;This is a simple but effective envelope generator designed by Moritz Klein in &lt;a href=&#34;https://www.youtube.com/watch?v=aGFb7JbTdNU&#34;&gt;his video&lt;/a&gt;.&#xA;It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters.&#xA;The opposite polarity diodes in series with the pots let you control the rate the capacitor charges and discharges at independently, so you can adjust &amp;ldquo;attack&amp;rdquo; and &amp;ldquo;decay + release&amp;rdquo; independently.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

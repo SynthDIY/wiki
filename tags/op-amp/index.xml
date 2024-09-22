@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>op-amp on SynthDIY Wiki</title>
+    <title>Op-Amp on SynthDIY Wiki</title>
     <link>https://wiki.synthdiy.com/tags/op-amp/</link>
-    <description>Recent content in op-amp on SynthDIY Wiki</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Op-Amp on SynthDIY Wiki</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://wiki.synthdiy.com/tags/op-amp/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,7 +12,7 @@
       <link>https://wiki.synthdiy.com/building-blocks/cv-input-to-microcontroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/building-blocks/cv-input-to-microcontroller/</guid>
-      <description>Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.</description>
+      <description>&lt;p&gt;Many digital modules will need at least one CV input, however you have likely noticed that while Eurorack can have ±12V travelling through its patch cables, most microcontrollers will be very unhappy to receive anything outside of the range 0-3.3V.&#xA;To allow you to &amp;lsquo;read&amp;rsquo; the whole 12V CV range, you need to perform something called &amp;lsquo;signal conditioning&amp;rsquo;.&#xA;This means that you want to &amp;lsquo;condition&amp;rsquo; the potential range of ±12V into 0-3.3V, cutting out any parts you don&amp;rsquo;t need to read, and scaling the parts that you do to the readable range.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

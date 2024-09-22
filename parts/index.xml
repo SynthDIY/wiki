@@ -4,7 +4,7 @@
     <title>Parts on SynthDIY Wiki</title>
     <link>https://wiki.synthdiy.com/parts/</link>
     <description>Recent content in Parts on SynthDIY Wiki</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://wiki.synthdiy.com/parts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -19,7 +19,7 @@
       <link>https://wiki.synthdiy.com/parts/otas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/parts/otas/</guid>
-      <description>Texas instruments has discontinued the DIP-16 version of the LM13700 so they are getting harder to buy.</description>
+      <description>&lt;p&gt;Texas instruments has discontinued the DIP-16 version of the LM13700 so they are getting harder to buy. You can use a SOIC to DIP adapter board to fit a SOIC-16 LM13700M/LM13700MX chip into a DIP-16 footprint. There is also a clone of the LM13700 called XD13700 made by a company called XINLUDA that is still manufactured in a DIP-16 package.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Power cables</title>

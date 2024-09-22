@@ -4,7 +4,7 @@
     <title>Modules on SynthDIY Wiki</title>
     <link>https://wiki.synthdiy.com/modules/</link>
     <description>Recent content in Modules on SynthDIY Wiki</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://wiki.synthdiy.com/modules/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,21 +12,21 @@
       <link>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/modules/envelope-generator/adsr-ish-envelope-generator/</guid>
-      <description>This is a simple but effective envelope generator designed by Moritz Klein in his video. It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters.</description>
+      <description>&lt;p&gt;This is a simple but effective envelope generator designed by Moritz Klein in &lt;a href=&#34;https://www.youtube.com/watch?v=aGFb7JbTdNU&#34;&gt;his video&lt;/a&gt;.&#xA;It approximates an ADSR by mixing together a short +12V peak and an attenuated version of the input signal and then feeding them into a capacitor through 2 diodes and potentiomters.&#xA;The opposite polarity diodes in series with the pots let you control the rate the capacitor charges and discharges at independently, so you can adjust &amp;ldquo;attack&amp;rdquo; and &amp;ldquo;decay + release&amp;rdquo; independently.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Baby-8 CV Sequencer</title>
       <link>https://wiki.synthdiy.com/modules/cv-sequencer/baby8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/modules/cv-sequencer/baby8/</guid>
-      <description>The Baby-8 is a really simple and effective step sequencer built out of a CD4017(up to 10 steps) or CD4022(up to 8 steps) counter chip.</description>
+      <description>&lt;p&gt;The Baby-8 is a really simple and effective step sequencer built out of a CD4017(up to 10 steps) or CD4022(up to 8 steps) counter chip.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MS-20 Filter</title>
       <link>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wiki.synthdiy.com/modules/vcf/ms-20-filter/</guid>
-      <description>The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on his site.</description>
+      <description>&lt;p&gt;The MS-20 is a synthesizer made by Korg and it has a pretty nice sounding filter. René Schmitz has made a popular clone of it and has schematics avavailable on &lt;a href=&#34;https://schmitzbits.de/ms20.html&#34;&gt;his site&lt;/a&gt;.&#xA;There is also a version designed by Kassutronics that adds a pot for blending between low/highpass and a drive knob to attenuate the input signal.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

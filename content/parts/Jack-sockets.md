@@ -56,7 +56,7 @@ summary: "mono and stereo jack sockets for your modules"
 {{< component
     shop="thonk"
     manufacturer="Thonk"
-    partno="PJ398SM"
+    partno="WQP518MA"
     link="https://www.thonk.co.uk/shop/thonkiconn/"
     datasheet="https://www.thonk.co.uk/wp-content/uploads/2018/07/Thonkiconn_Jack_Datasheet-new.jpg"
 >}}

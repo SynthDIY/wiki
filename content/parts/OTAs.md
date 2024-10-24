@@ -2,7 +2,9 @@
 title: "Operational transconductance amplifiers"
 --- 
 
-Texas instruments has discontinued the DIP-16 version of the LM13700 so they are getting harder to buy. You can use a SOIC to DIP adapter board to fit a SOIC-16 LM13700M/LM13700MX chip into a DIP-16 footprint. There is also a clone of the LM13700 called XD13700 made by a company called XINLUDA that is still manufactured in a DIP-16 package.
+Texas instruments has discontinued the DIP-16 version of the LM13700 so they are getting harder to buy.
+You can use a SOIC to DIP adapter board to fit a SOIC-16 LM13700M/LM13700MX chip into a DIP-16 footprint.
+Manufacturers XINLUDA and HGSEMI still make 13700 chips in a DIP-16 package.
 
 ## Through-hole
 {{< component
@@ -28,7 +30,16 @@ Texas instruments has discontinued the DIP-16 version of the LM13700 so they are
     shoppartno="C521165"
     package="DIP-16"
     link="https://www.lcsc.com/product-detail/Operational-Amplifier_XINLUDA-XD13700_C521165.html"
-    datasheet="https://datasheet.lcsc.com/lcsc/2005181836_XINLUDA-XD13700_C521165.pdf"
+    datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_2404261405_XINLUDA-XD13700_C521165.pdf"
+>}}
+{{< component
+    shop="lcsc"
+    manufacturer="HGSEMI"
+    partno="LM13700N"
+    shoppartno="C5160099"
+    package="DIP-16"
+    link="https://www.lcsc.com/product-detail/Operational-Amplifier_HGSEMI-LM13700N_C5160099.html"
+    datasheet="https://www.lcsc.com/datasheet/lcsc_datasheet_2209261730_HGSEMI-LM13700N_C5160099.pdf"
 >}}
 
 ## SMD
